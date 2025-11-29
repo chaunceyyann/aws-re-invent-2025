@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout template repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Nuke target repository completely
         if: ${{ github.event.inputs.nuke_repo == 'true' }}

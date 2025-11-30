@@ -53,7 +53,7 @@
    - Fill out template (auto-populates)
    - Link JIRA ticket
    - 1 approval required
-   - All status checks pass: `pr-checks`, `static-code-scan`, `terraform-plan`
+   - All status checks pass: `pr-checks`
    - All conversations resolved
 
 5. **After merge:** Branch auto-deletes

@@ -1,0 +1,66 @@
+name: Python CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, 3.10, 3.11]
+        
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov flake8
+        
+    - name: Find and install app dependencies
+      run: |
+        find ./app -name "requirements.txt" -exec pip install -r {} \;
+        find ./app -name "setup.py" -execdir pip install -e . \;
+        
+    - name: Lint with flake8
+      run: |
+        flake8 ./app --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 ./app --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        
+    - name: Run unit tests
+      run: |
+        find ./app -name "*test*.py" -path "*/tests/*" -o -name "test_*.py" | while read test_file; do
+          echo "Running tests in $(dirname $test_file)"
+          cd $(dirname $test_file)
+          python -m pytest $(basename $test_file) -v --cov
+          cd - > /dev/null
+        done
+        
+    - name: Run integration tests
+      run: |
+        find ./app -name "*integration*test*.py" -o -name "*test*integration*.py" | while read test_file; do
+          echo "Running integration tests in $(dirname $test_file)"
+          cd $(dirname $test_file)
+          python -m pytest $(basename $test_file) -v --cov
+          cd - > /dev/null
+        done
+        
+    - name: Run pytest for each app directory
+      run: |
+        find ./app -maxdepth 2 -type d -name "*app*" -o -path "./app/*" -type d | while read app_dir; do
+          if [ -f "$app_dir/pytest.ini" ] || [ -f "$app_dir/pyproject.toml" ] || find "$app_dir" -name "test_*.py" -o -name "*_test.py" | grep -q .; then
+            echo "Running tests in $app_dir"
+            cd "$app_dir"
+            python -m pytest . -v --cov --cov-report=xml
+            cd - > /dev/null
+          fi
+        done

@@ -40,3 +40,7 @@ override.tf.json
 
 # GitHub Actions
 # No specific ignores, but including for completeness
+
+# IDE / Editor
+.vscode/
+.kiro/hooks/

@@ -1,0 +1,480 @@
+# JPM and Netflix talks about Innovation in Payments and Streaming
+
+**Date:** December 08, 2025
+**Source:** otter.ai
+
+<audio controls>
+  <source src="./JPM and Netflix talks about Innovation in Payments and Streaming.mp3" type="audio/mpeg">
+  Your browser does not support the audio element. <a href="./JPM and Netflix talks about Innovation in Payments and Streaming.mp3">Download audio</a>
+</audio>
+
+## AI Summary
+### Overview
+
+The conversation covers JP Morgan's investment strategy, focusing on scaling existing solutions (70% of budget), expanding into new markets (20%), and innovation in blockchain, biometrics, and AI (10-20%). JP Morgan launched the JPM Coin, a tokenized deposit on the public chain, leveraging blockchain for efficient payments. AI is used extensively in operations, fraud detection, and client services, leading to significant efficiency gains. The discussion also touches on the evolution of Netflix's business model, its integration with global streaming platforms, and its use of AI and agentic models to enhance user experience and content personalization.
+
+### Outline
+
+
+**Investment Budget and Innovation Horizons**
+
+- Speaker 1 explains the investment budget allocation: 70% for scaling existing solutions, 20% for new products and expansion, and 10-20% for real innovation in blockchain, biometrics, and AI.
+- The focus is on enhancing payment methods, moving to the cloud, and building new products in new countries.
+- The innovation budget is reserved for future-shaping technologies, including blockchain, biometrics, and AI.
+- Speaker 2 inquires about the continued investment in blockchain despite the crypto market fluctuations.
+
+**Blockchain and JP Morgan Coin**
+
+- Speaker 1 discusses JP Morgan's long-term involvement with blockchain, mentioning the launch of JP Morgan Coin, a tokenized deposit on the public chain.
+- The coin is similar to a stable coin but is a true bank deposit, offering interest and full integration into JP Morgan's infrastructure.
+- Speaker 3 asks about the coin's stability, and Speaker 1 clarifies it is not a speculative asset but a true bank deposit.
+- The coin allows for 24/7 money movement and programmable treasury operations, reducing currency exchange costs.
+
+**Institutional Shift Towards Digital Assets**
+
+- Speaker 2 asks about the institutional shift from hating Bitcoin to embracing digital assets.
+- Speaker 1 explains the nuanced messaging around digital currencies and assets, noting the maturity of the ecosystem.
+- The conversation shifts to AI, with Speaker 2 mentioning AI's impact on payments and the $12 trillion daily transactions.
+- Speaker 1 highlights AI's role in operations, fraud detection, and client-facing solutions, emphasizing its importance for survival in the business.
+
+**AI's Impact on Payments and Fraud Detection**
+
+- Speaker 1 details AI's use in operations, including investigations, sanction screening, and machine learning for efficiency.
+- AI has led to double-digit volume increases and reduced headcount, enhancing engineering productivity.
+- Fraud detection has improved with AI, moving from traditional models to predictive models, reducing fraud attempts and improving profitability.
+- AI helps clients manage cash flows and working capital, offering precise forecasting and liquidity management.
+
+**Agentic Commerce and Treasury Optimization**
+
+- Speaker 3 inquires about agentic commerce, and Speaker 1 explains its end-to-end transaction capabilities from search to post-purchase experience.
+- Agentic commerce is embedded in merchants, marketplaces, and AI platforms, impacting the search side of customer experience.
+- Speaker 1 discusses the potential of agentic treasury, where agents optimize payments for speed, cost, and global reach.
+- JP Morgan collaborates with the Consumer Bank to offer end-to-end solutions from consumer to merchants.
+
+**Netflix's Evolution and Strategic Shifts**
+
+- Speaker 7 discusses Netflix's evolution from DVDs to streaming, emphasizing the importance of counter-positioning and personalization.
+- Netflix's strategy involves iterative approaches to new initiatives, building institutional capability within the business.
+- The company has shifted from ad-supported to ad-supported streaming, leveraging digital advertising's targeting and relevance.
+- Netflix aims to bring premium ad experiences to video content, differentiating itself from traditional advertising models.
+
+**Live Content and Global Audience**
+
+- Speaker 7 explains the strategic shift towards live content and sports, driven by the need to compete with traditional entertainment.
+- Live content provides shared experiences, complementing personalized, niche experiences.
+- Netflix's approach involves local production with global potential, leveraging local needs to create globally popular content.
+- The company balances global scale with local relevance, offering a wide range of content to meet diverse audience tastes.
+
+**Netflix's Distribution Model and Content Creation**
+
+- Speaker 7 describes Netflix's distribution model, which connects compelling stories with global audiences through technology.
+- The company supports creators with production capabilities and global reach, offering a compelling distribution model.
+- Netflix's approach involves taking risks and supporting ideas with potential for a large audience.
+- The company's model allows for diverse approaches to content creation, from fully owned productions to partnerships with other companies.
+
+**Scale and Personalization at Netflix**
+
+- Speaker 7 discusses the challenges of scaling content for a global audience, emphasizing the importance of local relevance.
+- Netflix's approach involves building core systems with local adaptations, offering personalized content to users.
+- The company uses dynamic UI composition to present content based on user behavior and preferences.
+- Netflix's recommendation systems have evolved to provide real-time, personalized content, enhancing user engagement.
+
+**Netflix's Integration with Partner Ecosystems**
+
+- Speaker 7 explains Netflix's integration with partner ecosystems, including device manufacturers and chip providers.
+- Netflix provides an abstraction layer, the 40 device program, to device manufacturers, ensuring seamless integration.
+- The company's approach involves integrating Netflix at the chip level, making it a must-have feature for TV manufacturers.
+- Netflix's strategy leverages customer demand to drive integration, ensuring a consistent user experience across devices.
+
+**AI and Agentic Services at Netflix**
+
+- Speaker 7 discusses the shift towards AI-driven systems, with AI models at the center of Netflix's architecture.
+- AI allows for flexible and adaptable systems, enabling rapid response to new content types and user needs.
+- The company uses AI for product development, allowing non-technical staff to propose and test new ideas.
+- Netflix's approach involves continuous improvement and resilience, ensuring reliability and adaptability in its systems.
+
+## Speakers
+
+- Speaker 1
+- Speaker 2
+- Speaker 3
+- Speaker 4
+- Speaker 5
+- Speaker 6
+- Speaker 7
+- Unknown Speaker
+
+## Transcript
+
+**Speaker 1 (00:00):**  
+Investment budget actually goes into horizon one, which is scaling the existing solutions, moving to the cloud. We have a fantastic partnership with AWS to make all of this work, enhancing the payment methods we offer. So that is probably the bulk of our investments. Then we have a second horizon, this is where we build new products, where we go to new countries, where we expand our network. Think about real time payments. Think about opening up new countries in the middle. That is there. And then the third part, which is probably 10, 20% of the budget, is reserved for real innovation, because we are absolutely here to shape the future of payments. And this is where our innovation in blockchain technology, biometrics, AI, etc, fall. And all of this together continues the build out of the platform.
+
+**Speaker 2 (00:57):**  
+Well, it's we wanted to ask you about blockchain, which in some ways it feels like this is 2025, this is the wrong year to be talking about blockchain, but it's actually, despite everything that's happened in the crypto markets over the past few years, it's become a big part of FinTech and JP Morgan payments tell us about what's happening with blockchain and why you guys have continued to invest in it over the past couple years.
+
+**Speaker 1 (01:20):**  
+Blockchain, as you say, is a very, very hot topic in payments at the moment. Actually, we have been at it already for more than a decade. So we have seen all the ups and downs of the crypto space and the blockchain space. Most recently, we launched our JP Morgan coin, which is a tokenized deposit on the public chain. So think about it as a bank deposit rate. Can move money using the public
+
+**Unknown Speaker (01:46):**  
+chain. Is it a stable coin?
+
+**Speaker 1 (01:49):**  
+It is similar to a stable coin, that it leverages the blockchain to move money, but it is different given that it's a true bank deposit, which means it's in short Yan, which means that you can pay interest, and it also means that it's fully integrated into the JP Morgan infrastructure. You have the full backing of the JP Morgan
+
+**Speaker 3 (02:12):**  
+balance sheet behind it. And it's not a speculative asset, right? It's not
+
+**Speaker 1 (02:15):**  
+a speculative asset. It's literally the same as putting your back your cash into into JP Morgan. What we like about the tokenized deposit is that it truly combines the benefits of both the banking world as well as the crypto digital world. It allows all the great characteristics of a traditional deposit, but then you can move money truly. 365, 24/7, and you also have this feature of programmability, where a CFO or a treasurer can say, this is how we want to move money. You can put in some rules, and it allows them to manage their entire Treasury operation a lot more efficiently.
+
+**Speaker 3 (02:57):**  
+Does it reduce expense also of changing currencies versus traditional foreign
+
+**Speaker 1 (03:01):**  
+exchange, you still need to exchange money quite in the same way, because ultimately, most clients, they want to move in and out of fiat currency at some point. The real interesting part is we see tremendous growth there. So we already process probably a few billion dollars every day through the tokenized deposits, and the growth is truly exponential.
+
+**Speaker 2 (03:24):**  
+I mean, this is a we interviewed Jamie over the summer in Radio City. Jamie Dimon, which was amazing that JP Morgan is launching JP Morgan coin in 2025 if you Jamie, when you took over the payments business a few years ago. Then JP Morgan would be launching jpm coin. What would his reaction have been then, actually,
+
+**Speaker 1 (03:49):**  
+so I worked with Jamie now for a long time. He would have listened. He would have made me make the case. Yeah, as we did, and I think there's a truly differentiated view between the blockchain technology that makes the payment system a lot more efficient and can really help create the benefits that we talked about in some of the cryptocurrencies, where you know, you can have different views in terms of how they adopt and since this is truly focused on the blockchain in a very controlled manner, I think the whole
+
+**Speaker 3 (04:19):**  
+company is behind it. What I gotta ask one more question. What did cause the institutional flip to stop saying, Hey, we hate Bitcoin, and it's evil to embracing it. In the last year,
+
+**Speaker 1 (04:33):**  
+I think it was definitely becoming more nuanced in the messaging digital assets. Digital currency is not all Bitcoin, and Bitcoin is not the same as digital assets and digital currencies, and I think they will often match together, but with the whole ecosystem maturing, I think everyone now sees the different aspects, and I think the answer are just more nuanced.
+
+**Unknown Speaker (04:58):**  
+Now let's flip to
+
+**Speaker 2 (05:02):**  
+probably what I'm sure is on everybody's mind here. And we eventually, we're 12
+
+**Unknown Speaker (05:08):**  
+minutes in, and we haven't said AI yet.
+
+**Unknown Speaker (05:11):**  
+We haven't
+
+**Unknown Speaker (05:13):**  
+said yes, talk to us about AI.
+
+**Unknown Speaker (05:20):**  
+$12 trillion dollars a day. How?
+
+**Speaker 4 (05:25):**  
+How are you using? Is AI making an impact today on that
+
+**Speaker 1 (05:29):**  
+AI is next to digital currencies, probably the second big, mega trend in payment, that
+
+**Speaker 5 (05:37):**  
+is really my view. We actually have long term, a lot more profound impact and change the way we operate.
+
+**Speaker 1 (05:45):**  
+And for us, having cutting edge AI solutions is a question of survival in the business
+
+**Unknown Speaker (05:52):**  
+over the long run.
+
+**Speaker 1 (05:53):**  
+So it is front and center, and I deal with it every day, running the business. There are some use cases that we pursue for AI inside the company. For example, in our operations group, we use AI to run investigations, sanction, screening, more efficiently. It's more traditional aI think machine learning, and we've seen really good impact already. So our volumes have increased double digits over the last five, six years, and the head count only two, 3% so you get true operating definition. We're excited about this. This will continue same engineering productivity. Our engineers, you know, use AI tools extensively, and it has absolutely made them more productive, better output. There's errors, and given how big our agenda is, that is really, really exciting, and that is also helping our our sales team become a lot more targeted, get signals you know when to reach out to clients. So there's a lot of internal use cases that we pursue for client facing. We also have a lot going on. I think fraud and protecting our clients money is probably one of the key areas where we use AI. We have a large payments model that truly now moves from traditional AI to new AI, so we are no longer just using fraud labels and assisted learning to more predictive models unleash on the 12 trillion worth of transactions and hundreds of millions of bank accounts that you see, and that truly creates superior fraud statements. So we have seen 30, 40%
+
+**Speaker 2 (07:39):**  
+improvement if you can move the needle on fraud, it's massive impact to profitability for you and
+
+**Speaker 1 (07:45):**  
+customers, right? It's massive impact. And if I speak to our clients, fraud and keeping their money safe is probably the number one topic that they care about. They love all the discussion about AI blockchain. They say, please make sure the fraudsters don't come about our money.
+
+**Speaker 3 (08:00):**  
+And AI is making that harder than ever, because the fraudsters are
+
+**Speaker 1 (08:03):**  
+getting two arms race, and by middle of the year, we have already seen more fraud attempts on our clients money than all of last year. So you can definitely see how this is becoming a very, very, very prominent challenge. So the AI investment is really helping us safeguard our clients here. And then there's also solutions where we help our clients run their business better. For a CFO, it's, for example, a really hard task to forecast their cash flows, which ultimately tells them how much liquidity they need to hold. So AI can make this a much less manual task, much more precise, and ultimately help them save liquidity and working capital. So there's a lot, basically in every aspect of payments that you can think about.
+
+**Speaker 2 (08:53):**  
+Yeah, I mean, your your biggest customers are merchants. So predicting their cash. We've been in so many merchants, retail companies on acquired like the difference between a grade and during a company and not is often cash flow management. It's working capital management. It's Can you have a negative cash flow cycle,
+
+**Speaker 1 (09:13):**  
+and especially with more and more payments happening real time and in the moment, you need to take quick decisions in nanoseconds. Is this fraud suspicious or not? So the bar is also raising from a consumer expectation standpoint, which makes AI and the ability it offers even more important.
+
+**Speaker 3 (09:35):**  
+So one thing that I have had a tough time doing in this AI era is reading beyond the headlines when there's a hot topic, and trying to look under and say, How much usage is there actually of that topic. And one of the buzzy terms right now is agentic commerce. And I'm curious to between your clients and all the different companies that you power, what are examples where agentic commerce is really happening and there's a lot of activity there, versus a lot of people showing cool mock ups and saying agentic comments. Commerce is the future.
+
+**Speaker 1 (10:08):**  
+It's a great question, and the gentle commerce definitely meets the criteria of a lot of noise. At the moment, even a year ago, barely anybody will speak about agent e commerce, and today, you see multiple announcements every day. We look at agent e commerce as a transaction truly end to end, from consumer identifying what they want to buy to the checkout to the post purchase experience and agents already every problem across the full value chain. They are often embedded in merchants or marketplaces as platforms. You have agents embedded in the AI platforms. And perplexity is also coming. You have consumer agents coming up. So there's a lot of activity in the space. Most of the impact has been so far on the search side of the of the customer experience, where people use them to find what they want to buy, but more and more you see also check out and actually customer experience and customer decisions taken over by agents. I do think there's still quite a lot of open questions. First of all, what are the use cases? Probably, if you buy toilet paper, you're happy for an agent to do it. If you want to buy a nice pair of shoes or a nice dress, you probably still want to do it yourself. Then how do you deal again, with fraud liability? What do you do if a truck with 20,000 loads of toilet papers outside your house ready for delivery. You know, who
+
+**Speaker 3 (11:43):**  
+is that response actually happened to me with bananas. It happened to you, but I thought I was ordering 10 bananas, and I ordered 10 bushels last week, a lot of bananas.
+
+**Speaker 1 (12:02):**  
+So there is open question. I think also the business model. A lot of Commerce today is funded by advertising and commercials. You know, how will this evolve going forward? So a lot going but I do think it will mature and then have an impact. By the way, another area we are very passionate about is agenting treasury. So this is where treasures and CFOs just give a payment file, and then they say, you optimize dear agent for speed, cost, global reach, and then identify for every transaction, what's the best way to do it. So it's a great use case.
+
+**Speaker 2 (12:38):**  
+This is also, I imagine, an area where JP Morgan, kind of like, uniquely, can create solutions for customers. Hey, optimize my treasury. There's everything you just said, but there's also, you know, what portions of my treasury am I going to keep it, what investments and what balance and like, match that with, predict my cash flows and my cash flow fees. Like, you know, Yan,
+
+**Speaker 1 (13:02):**  
+correct, and we do have also a very close partnership with our colleagues in the Consumer Bank to really look at the end to end journey from the consumer all the way to the merchants and everyone in between, to embed our solutions there.
+
+**Speaker 3 (13:15):**  
+Makes sense. Well, Max, thank you so much for joining us today. It's a great place to leave. It really appreciate you coming.
+
+**Speaker 1 (13:21):**  
+Thank you so much Ben and David And thanks also for the partnership that we have
+
+**Speaker 2 (13:25):**  
+truly amazing. It's truly amazing. Thank you, Max. Thank you. Ahn,
+
+**Speaker 6 (13:40):**  
+cool. That was fun for our next segment of morning here, we
+
+**Speaker 2 (13:49):**  
+had a company this is appropriate on so many levels, has reinvented itself at least three times, arguably four or five
+
+**Unknown Speaker (14:03):**  
+should be a lot of envelopes, a lot of
+
+**Speaker 2 (14:05):**  
+envelopes, not a lot of envelopes. In fact, zero envelopes these days,
+
+**Speaker 3 (14:11):**  
+and yet, I consume more of their product than ever, as do we all, as we all so before we announce our next guest, let's watch a little video about the company efforts
+
+**Speaker 7 (14:25):**  
+building a real at scale, global streaming business is hard. You got to combine great tech product and great content. We're going to be able to move more quickly than other streamers as we leverage pre existing tech and data science, assets and expertise
+
+**Unknown Speaker (14:46):**  
+that broadens the Netflix offering,
+
+**Speaker 7 (14:52):**  
+we hope that you know that ultimately reinforces Our value the most important service for you, entertainment needs.
+
+**Unknown Speaker (15:06):**  
+How many times a day do you see that logo? I
+
+**Speaker 3 (15:09):**  
+mean, once, but like, I get the orange fuzzy seeing the rainbow. Netflix, you're like, so amped up for what's about
+
+**Speaker 2 (15:17):**  
+to come out. Well, please welcome to the stage. The CO CEO of Netflix, great theaters.
+
+**Unknown Speaker (15:35):**  
+I like your setup here.
+
+**Unknown Speaker (15:36):**  
+Thank you. Thank you. Well, we
+
+**Unknown Speaker (15:39):**  
+may be inspired by some you know,
+
+**Speaker 7 (15:40):**  
+Netflix shows here. Is this an audition? Are we?
+
+**Speaker 3 (15:43):**  
+Yeah, we're all, I did see nobody wants this up there. And I was wondering, did you throw that in? Because we're kind of doing a podcast here, I was
+
+**Speaker 7 (15:57):**  
+gonna say, you know, it all fits together as a universe of entertainment that's connected from one of the others this.
+
+**Speaker 3 (16:05):**  
+This feels really poetic. I don't know how many people out there are, like data and I and watched 12 year old, 13 year old reinvent keynotes, but in the very first keynote, Andy Chauncey, very first reinvent interviewed Reed Hastings as a case study for the cloud, for large companies, moving to the cloud, which at the time was
+
+**Unknown Speaker (16:27):**  
+complete heresy, was provocative. Yeah, AWS
+
+**Speaker 2 (16:29):**  
+was for startups. It was for Y Combinator companies, and here's green Hastings well.
+
+**Speaker 7 (16:33):**  
+And even then, I think it was this idea that you would lose control over your infrastructure, and, you know, and your data, and all these other things were out there. So there's definitely it was pushing the edge. But you know, so we started that process in 2008 actually, a couple years before that keynote. And just to step back and say, over a decade and a half, you know, what has happened, both with Netflix and with AWS, is pretty amazing. We were doing a million hours a month back then a billion at the time of that 2012 reinvent now we're doing, really in a quarter ish, every quarter kind of thing. So growing up together has been amazing.
+
+**Speaker 2 (17:09):**  
+Wow, that's, that's incredible. Well, as we, as we teed up in the intro, appropriate enough for reinvent, we have to ask you, Netflix, unlike so many other companies, not just green bed, but like, you've killed what you were as a company in the past and gone to a whole different thing. There was the red envelopes to streaming. There was, we will never have ad supported to actually, we really are in the ad supported. There was, we won't have sports we have NFL games on Christmas.
+
+**Speaker 3 (17:44):**  
+How do you make these decisions when you decide that we're not just going to do little leadership and state
+
+**Speaker 7 (17:50):**  
+change, we're making a big change. Well, I think, you know, most of that is driven by the desire to grow the business and, you know, serve the customer more. So I think what anybody else has experienced, and, you know, we, we really have felt that focus and being limited in what you did for a long period of time, especially as this big macro shift and how entertainments can be distributed, was the way to win. And I think that served us quite well for, you know, a period of time. But then you also say, Okay, now we need to think about what we're doing that's more and it's interesting because you I think you described them as big shifts, and there were big shifts in strategy. That's definitely true. But I think, you know, even some of those, there's a good example where we've taken sort of an evolutionary or iterative approach towards how we entered those spaces, because we generally come from the perspective that when we're going to do something new, we don't know what we're doing. We have not figured out how to be good at that thing. And, you know, I was, I think it's funny because people say, when you're doing something new, you just hire all the people that know how to go do that. And certainly you can go do that, and that's a useful approach to learning quickly, but I think it underestimates the need to essentially build institutional capability that understands how to go do something like you can hire a bunch of expertise in but that expertise has to learn how to do it in the context of the business that we are currently operating,
+
+**Speaker 3 (19:07):**  
+but especially if you're doing something brand new. I mean, it's not like when you just decided to do streaming through Silverlight to IE browser. Silverlight launched
+
+**Unknown Speaker (19:16):**  
+above that. They're going way back to Microsoft a lot.
+
+**Speaker 3 (19:19):**  
+I was very frustrated because I had a Mac. I remember it was so novel. It's not like there were a lot of people you could go hire that had that no house. There is a
+
+**Speaker 7 (19:31):**  
+so these, and there's, there's multiple examples here, right? So I think it's a, yeah. So you talk about, like, doing something completely new. We were building that from scratch. I remember even like, talking about, like, how are we defining the standards that will be instituted, you know, for the streaming universe, etc. So that's, that's one example of where you're, where you're building it as you go. I think, you know, ads is another really interesting one where, you know, it's not like this is, you know, a new space, right? People have been doing and doing it well for a long period of time. And so we, you know, thought, Okay, we're going to get into it. We'll do it in an iterative approach. You know, partner to get an ad stack, if they get the get go and then build our own and learn through that process. But even this, I think, is a bit of a new version, because we're trying to bring essentially, what has been amazing about digital advertising that, you know, folks like Google and meta have been doing for a long time and are great at, you know, great targeting, great relevance, all those things, measurement, but then also bring it into a premium, you know, tea video ad experience, right? And so that's a whole new thing as well.
+
+**Speaker 3 (20:29):**  
+Yeah, like, we'd be terrified of programmatic ads on acquired like, we're so brand protective, I would never run a random commercial against it. Netflix is premium like that, but you guys have to really be thoughtful about Yan.
+
+**Speaker 7 (20:42):**  
+I think that's some of the differentiation that we have, right? Because when you know, you think a brand, when they what can they get from Netflix that they can't get from maybe some of the advertisers? It is that you know that that premium placement, the security that they have around brand and increasing, what we're trying to do also is be able to do things that TV would never been able to do, or not really to do at scale, which is bring brand aware, brand appropriate, brand sensitive creative into title sensitive, title aware creative, and match those worlds up in a way that everyone feels super excited about, which used to be quite an evolved process and take a lot of time, but we're seeing you can actually accelerate that. So that's sort of plays on that differentiator. Do it programmatically? Well, it's a, I mean, we're, I think you're gonna walk towards that way. So this, this is maybe the path that we see, leveraging some of these new tools to get to, which is you start by taking what was an existing call it, 18 month process, heavy humans involved, right? And see if you can get that process so, like three months right? And then you start to really build more iterations and then more data, and then you ask the question, okay, is there a certain set of situations or class of advertisers where you could actually make it, you know, truly automated, right? And so I think, yeah, we're not there yet, but I think that would be the path we would seek to go.
+
+**Speaker 3 (21:54):**  
+So this is the story behind ads. Give us the story behind, hey, we're never going to do live, we're never going to do sports and
+
+**Speaker 7 (22:03):**  
+walk your way into, well, the NFL, yeah, I mean, live, one of the big differentiators we had the beginning was on demand, right? And so this whole idea that we're going to, you know, counter position relative traditional entertainment, because, you know, we don't have the same constraints. And so, you know, when you're in that early stage, you really focus on the counter positioning and live doesn't you know that? You know, obviously runs counter that strategic. Now, at some point you become,
+
+**Unknown Speaker (22:30):**  
+you know, Hamilton Helmer, I
+
+**Speaker 7 (22:33):**  
+love Hamilton. Yeah. Shout out to Hamilton. Read his book. It's great. So you know when you are at a certain scale, though, and you become, not so much where you're counter positioning, but you are, for an increasing number of people, the place that they show up to be entertained. Then you get to start to say, Okay, now we think we can layer on some of these more traditional things and compete in that way. So that's, you know, where we, you know, in line. Maybe other thing too on this is that, you know, I think about the entertainment ecosystem, sort of is increasingly moving to two poles, right? We get highly personalized, highly niche experiences that have tremendous value because you're speaking very specifically to, like, you know, what I want. But then that creates a space that, you know, I think, and a need for this other poll, which is, you know, how are we all having a shared experience, like, what are we all doing, you know, in a single moment where we know that there's millions, 10s of millions, maybe hundreds of millions, of people around the planet that are all doing the same thing, so that we can talk about it and feel the power of that shared experience. That's where I think live, you know, and some of the things we've been doing there come into play. I was
+
+**Unknown Speaker (23:37):**  
+gonna say this for later, but
+
+**Unknown Speaker (23:41):**  
+did you have any idea that k pop, team of thunders was going to be one of
+
+**Speaker 7 (23:47):**  
+those things that was great, amazing movie. But I would say there, there's these, this extra layer that you get to where something magic happens, or, I think, you know, it enters into the Zeit case and sort of builds on itself, and it becomes one of those events where now you know, whether it's social media or your kids Halloween costumes, you know that, you know,
+
+**Speaker 2 (24:09):**  
+I mean, Ben Thompson is writing about kickoff TV. That's a Yan write about an animated show like that. Well, in that vein, one of the things we really wanted to ask you is, if you look at the industry of Hollywood 10 years ago, and you look at the industry of Hollywood today, just like the value chain, how it works, it's completely different, and arguably completely different.
+
+**Speaker 3 (24:32):**  
+Most folks in the audience are not from the entertainment industry. So would you be willing to give us a brief primer on here's how you make a movie or a TV show 10 years ago, and here's how it
+
+**Speaker 7 (24:40):**  
+actually works today. Yeah, I may sort of run super counter to your thesis, okay, because I would say I don't think it's actually that fundamentally different. And I know, and I don't want to understate the differences that are involved in changing company dynamics and things like that. So that's that's fair. But if you step way back, right and take a long term view, you'd say, what are, what are the, what are the sort of core functions or properties of this? Once you got to have a great story, you got to figure out a way to sort of produce that story in a compelling way for audiences. You're leveraging the latest technology that's out there. And then you have to find a way to connect that story with a bunch of people to watch it who are going to this way. And you, yeah, I think we can have, you could use the words you used around, you know, several shifts, whether it's like adding sound to movies, talkies, right? Or television, remember television that was like, you know, and then DCR, DVD and so on and so on. So, yeah. I mean, do I think we have a, we have a very compelling, very effective distribution model that's training now, we're now able to build essentially a global Entertainment Network, and that means that creators, when they have that story, right, that's really compelling, we give them the tools to tell that story in an amazing way, sometimes in ways that they never could have before, because we're up leveling their production capabilities. But then we also then connect that story with the largest audience that that show could ever possibly have seen, right? I mean, you know, we think about whether it's concept of appel or squid game countries and languages that have found audiences that are global audiences rarely, rarely happen for if ever, and so, so in my mind, it's, it's, you know, it's a, maybe a quantitative difference, if you will, the qualitative processes. Feels very similar to me,
+
+**Speaker 3 (26:22):**  
+I'll ask it in a sharper way. It used to be that the distributors didn't like to own all the risk and all the upside, and now it seems like Netflix and its peers want the risk and the upside, and you see less of these, like actors or studios or getting big back ends on things. Does that feel like a fair characterization
+
+**Speaker 7 (26:44):**  
+of what happened? I think the reality is, there's multiple models that are in play today, right? And so you still have, you know, all the way from folks who will literally produce you have something on their own. They will budget the whole thing, and they will say that I want to go see who I can sell this to for a distributor, all the way to where folks like us and our peers get involved at the very beginning and say, No, we will take the risk and we will support that. So one, there's just a diversity of approaches out there, which I think is very healthy too, for the ecosystem. Because, you know, we all know, you know, when you when you have an idea, and you're trying to get that idea out there. You know, having many varieties and pass to guess, is a very powerful thing, I think, to allow that to happen. So, you know, there are some like, you know, shifts in that process. But I think those shifts are also consistent with, you know, some of the what we see as, like, the value that we deliver and we hope to offer, which is, again, about this, we're excited about an idea, and we feel really strong about the fact, like, you know, we can pull this off with the creative partners we've got. We think we can find a really big audience for a sec. So then it's, you know, appropriate for say, like, we're going to enable this to happen. We're going to lean in to make sure that that idea doesn't die because it can't find funding in some other way. And then, of course, you know, we want to participate in the upside of that as well. And so then we get to these structures, right?
+
+**Speaker 2 (27:56):**  
+I think it is interesting. Of course, Hamilton Helmar has already come up once in this for England, who doesn't know Netflix was, was Hamilton's author of seven powers, the great strategy framework we use on every other civil choir. Netflix was like the like the tech community, like the perfect company for developing the seven powers.
+
+**Speaker 7 (28:15):**  
+And I don't know if you know this too, but we actually had Hamilton come in and he taught essentially a strategy course for all of our directors and above, because we we so believed in this, this, again, in our model, we sort of try and distribute the decision making out, right? And so having this really very strong strategic capability embedded throughout the
+
+**Speaker 3 (28:37):**  
+company on this particular let's talk about scale. Scale. Netflix is the ultimate scale where the more the subscriber base grows, the more theoretically, Netflix should be willing to pay for any given piece of content, or to create any given piece of content, because there's a wider base of people to amortize it over. And then if you kind of play out that flying wheel, it's like, well, you get the best content, you market to the most people, you get more subscribers, and then you just can, kind of like, grow faster and pay more for content than anybody else. Where does that fall down? Because it sounds like utopian, like, once you start that flywheel, you just what's hard
+
+**Unknown Speaker (29:14):**  
+about that for you guys? Well, I
+
+**Speaker 7 (29:16):**  
+think maybe the one component that's important to layer on top of that is that not every title essentially has a global audience. And so that sort of global scaling effect and increasing leverage, it doesn't really work across the entire, you know, population. You know, we're so at this point, we're, you know, approaching, you know, getting close to a billion people who show up seeking to be entertained. From us, they have a very wide range of tastes. And so increasingly, what we have to do is think about, you know, how do we serve that wide range of taste and not, you know, when we produce a show, we think we're going to find a pretty big audience for it. That's the goal, obviously. But you know, we also really are anchored in what we call local for local, which is, you can't start the idea with, you know, you're going to make a sweet game that's amazing for Koreans. But this could be globally, hugely popular. It doesn't work that way. You get to really inauthentic and sort of lame stories as a result. So you start with super local thinking about the local needs. And then some of those work globally, but you're not really.
+
+**Speaker 2 (30:16):**  
+Is there any point in the in the development process where, like this started local, but we think it might be global.
+
+**Speaker 7 (30:23):**  
+The creative execs have idea that this is going to go but, you know, like, I mean, mostly you get surprised by how big that those can get. More than banking on it, I would say. But it just gets to this idea that, you know, you really are serving sort of sections of audiences at the end, you know, at the end,
+
+**Speaker 3 (30:38):**  
+maybe now that you are at this giant scale that you're at. How do you decide when a regional investment is worth it versus something that you can amortize across all users?
+
+**Speaker 7 (30:50):**  
+It's not surprising. This question comes up all the time, so I think it's one of the trickiest things that we that we try and balance. You know, not surprisingly, because, from the perspective of, there's great leverage in building global, scaled, you know, approaches. But also, what I have been, you know, constantly minded of is that actually serving that wide variety of people is a very local game, right? And so you try and do it as multiple layers, right? You're building core, central stuff that you get great leverage off of, you know, we do a single investment homeless. Some of the leverage, scale content are the same fixed cost investment on engineering and product advancement, right? So you get that same benefit there. Then there's some of that you're building called central systems that have an adapt, adaptation locally. So think about like payments rails, right? You know, you do central payments rails using a lot of great logic there, but then you're actually interfacing with your many, many different payment providers to actually make that work, but then ultimately, it's sort of individual personalization at the end of the day, right? Which is you're bringing, you know, this vast library of content, and we think about a personalization title perspective, but how do we present that title in a way that it doesn't connect with the user? And increasingly, now we're moving into personalization at the UI composition and module level, right? So that allows us to think about not only, you know, what's in the UI, but the form and function of the UI, and sort of say, hey, you know, when you show up for us, what can we give you that specifically meets your needs? And that might be different, you know, time of day or day of week, right? So Thursday night
+
+**Speaker 3 (32:20):**  
+versus Sunday, and I've heard you say so I'm sure everyone in the room is familiar with in the last year, Netflix rolled out a new UI. Hidden in that UI is the fact that you are not pre fetching all the titles you are watching my behavior on the UI, and then in real time, fetching the right content for me based on my behavior.
+
+**Speaker 7 (32:38):**  
+That's right. So we used to pre compute overnight, essentially in trough, but you didn't have, you know, the operational systems, sort of at peak. We would pre compute those recommendations. But it doesn't allow us to do what exactly you're describing, which is react in session dynamically based on the signals that we're getting. So we had to re architect everything. Right? We had to re architect the whole recommendation systems. How does our pipeline into the UI, how the UI gets composed, page construction, all those things, but it has a whole bunch of benefits, because it allows the dynamic response, but it now allows us to think about the construction of the UI based on need state or use case, and we can use those signals to adapt to this.
+
+**Speaker 3 (33:17):**  
+And it's so cool. I'm now gonna be, like, very deliberate about where I'm sort of Yan as I'm scrolling through, like, how much trailer do I let play? Or you
+
+**Speaker 7 (33:24):**  
+can do that, or you can just look like, here's an interesting twist on this too, because, you know, it takes implicit signals, which are valuable stuff like that, but it also allows you to give very simple, explicit cueing behaviors right where I think you'll see more and more will give you. Because, you know, we sort of there's a vast universe of things that you could eat, right? But ultimately, you we sort of know that that universe is centered around maybe four or five court use cases. And so if we can find shorthand ways that you can understand where we say we know you're in one of these states, give us a hint about what you need from us right now, you can probably accelerate that process and get it. Give us, give us, give us a clue about exactly what
+
+**Speaker 2 (34:03):**  
+you mean. Since one of we were talking a little bit downstairs before, in my opinion, Lisa, I'm curious to you, as a heavier user than me, if you would agree, you have the simplest UI of all the major streaming and entertainment platforms out there.
+
+**Speaker 3 (34:18):**  
+You created the current streaming UI that then everyone else got. But I think
+
+**Speaker 2 (34:22):**  
+we look at like we have a children who spend a lot of time on your competitor that has a mouse as its mascot.
+
+**Unknown Speaker (34:31):**  
+That's a very complicated UI. Well,
+
+**Unknown Speaker (34:35):**  
+when they smashed in streaming services together,
+
+**Speaker 2 (34:39):**  
+yeah, or even YouTube, you know, given like, you know, it's actually quite busy when you open it up. Is this part of the ability to dynamically generate UI? Is this part, part of the philosophy
+
+**Speaker 7 (34:51):**  
+of simplicity? Well, we've always been sort of really anchored in a simple UI philosophy. And we think that there's a general trend in companies because they just want to serve more people, right? And there's more features that you can add. And you know, some product manager says, like, I know what that would be. Somebody use that, but we generally think that there's a tendency to over complicate an ad, and so we always try to have this very strong sense that every feature has to earn its weight, right? It's got to be delivering value commensurate to its pixel allocation, its engineering maintenance budget, whatever you know, metric you think. So we call them scraping the barnacles, right? Where you inevitably build things in, where you think they're going to be big, and maybe they're not, or they're big at a time, and then they see, you know, they don't. They change
+
+**Speaker 3 (35:34):**  
+over a period of time. At one point, I starving 1000s
+
+**Speaker 7 (35:37):**  
+of movies on Netflix. It was our repository. Well, actually, you know, and those aren't totally gone, because essentially, we mapped them into the new model so you would lose that data. But we did find that a more simple model, believe it or not, and it seems so trivial, right? Going from stars to just, you know, three thumb states, essentially. But even that reduction changes how users engage and the amount of signal that you get, because just That's how much simplification. So, you know, we really try and be, you know, disciplined about pulling stuff back when it when it's not meeting that criteria anymore, so we can allocate those resources something else to do better.
+
+**Speaker 3 (36:15):**  
+There's a cool this is not, this is not a drive that you will not see this. This, we were talking backstage. I think there's a really cool story that I had no idea about, about how deep Netflix integrates with the partner ecosystem, and also just a cool story of technology abstraction, can you share with the audience? How, how a how many Netflix clients there are? I mean, you need to build and to how that happens.
+
+**Speaker 7 (36:43):**  
+Yeah, when you say clients, we're talking about the devices that you use to stream to essentially endpoints, different kind of clients than JP Morgan, yeah, exactly. They're good clients, though, too. So yeah, we're on 1000s and 1000s of types of devices, literally, you know, we're at the point where we count in billions the number of actual physical instances of those things. But then, you know, we got into this because we sort of, we're talking about, like, how do you handle the diversity that goes up? And the actual answer is, we don't really have a lot of diversity. We have written an abstraction layer, simply an SDK, we call the number 40 device program, which we give to all of those device manufacturers. But really the maybe the fun part you're into is we do this at the chip level. And so you know, when a new chip tapes out that's targeted at TVs or set top boxes or adaptive products, when that's by the time that chip takes out, Netflix is already integrated onto it, and the latest version of energy is there. So that just moves to the value.
+
+**Speaker 2 (37:37):**  
+If you're a television manufacturer, you're like, the Netflix integration is already baked into the chip that you are buying from media tech
+
+**Speaker 7 (37:45):**  
+or whatever. That's right. So 10 years ago, you know, 12 years ago, the Netflix pre integration was a feature, essentially that when you were thinking about CHIP selection and what you were buying, like, Oh, I just get the Netflix piece. I don't have to worry about that anymore, right now, it's become ubiquitous. So essentially, I think it's become a must have feature when
+
+**Speaker 3 (38:05):**  
+you're selling chips. Just so it's a great business model, piece of leverage once you have to because then those chip manufacturers need to do that in order to become valuable enough for their customers to buy them.
+
+**Speaker 7 (38:16):**  
+Yeah, I think it's just in, you know, obviously, what fuels it is the customer demand at the end of the day, that's the thing that matters, because the whole thing works, because there's enough demand where TV manufacturer says that's pretty important for me to have that feature, and then that flows through the ecosystem.
+
+**Speaker 2 (38:33):**  
+That way. We spoke about this a bit with with Max. It's going to be a recurring theme here, and maybe this is the right time to bring it up with you agents and AI. How are you guys thinking about this? Like, is there a future that you're thinking about where agents and AI, services for consumers are the ones that are bringing them content to consume?
+
+**Speaker 7 (38:54):**  
+Yan, I think of this more as maybe a software architecture question, or first and foremost. So if you think about where most of our systems have been architected before, there's, you know, hard coded business logic that essentially is calling out to services or whatever to execute that logic. And we're really pivoting more towards a model, a genic model, at the center of that. And so you think about this as maybe, like a member model that says, I understand, you know, a wide variety of data around how members behave, and I can think about how to optimize that for a certain set of goals. And so now that that model sits at the center, it calls out to all these services. Maybe it orchestrates other models to do other things for it to achieve a bunch of different goals, but it really provides a tremendous amount of flexibility and adaptability, and how you then extend those systems into new spaces. So things like, if you have new content type, right? You want to do personalization for new content type used to be that that was a many month process to stand that up, get data in, tune the models, figure out what's on stuff. Now we can do that, you know, very, very effectively. It also allows, I think, different use cases of how you do product development. So think about, like, non technical, or less technical folks who might have an idea and say, like, okay, let's say after a football game mentioned live, right? You know, how do we pivot folks off? There might be a specific need state to pivot people off of a football game to another show that they might want to watch. Maybe it's not even a football game that we don't have somebody else's football game just football game because we noticed a surge of traffic service so that, yeah, that product manager, let's say, or this merchandising person, says, Okay, how do we fill the football shape hole in your in your heart right now, right before
+
+**Speaker 2 (40:36):**  
+I got as a huge football fan, thank You for quarterback and receiver coming out during the offseason, like it builds,
+
+**Speaker 7 (40:47):**  
+doing that and playing sort of a promotional model before we take a lot of work. You think about here, what's universal titles? How do you feel for that? Maybe you put that in over title rank or a traditional, you know, sort of ML model to rank those in a personalized way. But now you can sort of have that person literally say, Okay, this is what I'm trying to go do, speak to that central model, and have it sort of put together a bunch of stuff to try and solve that problem. And then, and then these ideas sort of, you know, they they live or die, or they get, you know, sort of elevated in the UI based on their utility to any given user records over
+
+**Speaker 3 (41:23):**  
+there, Netflix is famously on the cutting edge of machine learning. I mean, the Netflix algorithm. Have you deprecated a lot of the older models in this world of llms?
+
+**Speaker 7 (41:37):**  
+Well, I'd say we're in this interesting spot. You talk about evolutionary versus sort of revolutionary changes, right? Where, this is an interesting model, where, I think there are moments where you really don't get the benefit of the new approach unless you really shift over, right cloud, I think is another really good example. When we were doing that process, we talked about, like, from 2008 episode, we shift over, you know, unless you're fully on the new model, you really aren't reaping all the benefits. We call this this awkward period in the middle of writing where, like, you have one foot on one horse and one foot on another horse, definitely you don't want to be for too long. You want to minimize that. And so this is a situation where, you know, we think about leapfrogging, essentially, the existing approaches and trying to shift over. And usually this thing is really hard to go do, because the existing approaches are, they're highly defined. They're very sophisticated, hardened. All the corner cases have been worked out. And then you go to a new approach, you're like, wow, we're super excited about what this could offer. But it's, you know, it's, there's oftentimes, you know, like, a tough transition in that approach, where you're betting on the future and then you're saying we got to get through an awkward phase to get there, but that's how we think about sort of shifting
+
+**Speaker 2 (42:46):**  
+off more. When do you guys at least the Chaos Monkey? So it's called, yeah, at what point in the new technology onboarding process, do you at least did the Chaos Monkey on it?
+
+**Speaker 7 (42:58):**  
+Well, I think for us, that's a continual practice, right? Because that's how we ensure that we are resilient against the whole variety of things. And we really come from the philosophy that you're not doing that constantly, you're just building in vulnerability and weakness. So I'd say we're that's just, that's a bond, and
+
+**Speaker 2 (43:13):**  
+this is a process that runs within Netflix that is constantly just trying to break itself.
+
+**Speaker 3 (43:17):**  
+At least I read this like 15 years, yeah, I don't know how true it is today. No, it's we still
+
+**Speaker 7 (43:21):**  
+pretty much believe it. And whether it's Chaos Monkey, which is called service level, you know, killing service levels, or chaos Kong, which takes out whole availability zones, you know, and see if you're recently into availability zone failover and things like that, it's a pretty it's pretty crucial part of how we think about our reliability schema. And I, I would say our reliability metrics tend to demonstrate the value of them.
+
+**Speaker 3 (43:43):**  
+All right, this feels like this. This like funny question I almost had to ask you. There's two points of view. There's there was the streaming wars, and they're over, and Netflix won. And then there's this other perspective that's like a lot of streaming services out there's a lot of streaming services. A lot of them are really mature. They sort of consolidated into, I don't know about formidable competitors, but vertically integrated competitors. You've got YouTube, it is, in some ways, the most competitive media environment that has ever existed.
+
+**Speaker 7 (44:08):**  
+How do you think about this? I would say it is definitively the most competitive media environment that's ever existed. If you think about the range of choice that's available to any given person on the planet for what they communicate with, there's never been this range of options available. And they're all, I mean, they're increasingly, completely friction free, right? You can like you don't like what you're doing right now, you're a flip or a click away from doing something else. It's very, very simple. So in my mind, it's incredibly competitive. We've expanded the types of entertainment that are available to people too, right? Gaming games, or, you know, social media, short form, there's so much that's going on, and so I think that's great for consumers. You know, it's incredible, but it's also, you know, it requires us, our peers, everybody, to basically constantly reinventing themselves, pushing themselves to deliver more. Because, you know, if you stand still in this environment, you will have your lunch easy for sure.
+
+**Speaker 2 (45:01):**  
+Well, that feels like great place to leave. It great. This has been such a blast. Thank you so much. Yan.
+

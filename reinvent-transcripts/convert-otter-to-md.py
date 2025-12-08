@@ -134,8 +134,9 @@ def generate_markdown(speakers, title, ai_summary=None, audio_filename=None):
     
     # Audio player if provided (using HTML5 audio tag for GitHub)
     if audio_filename:
+        audio_type = "audio/mpeg" if audio_filename.endswith('.mp3') else "audio/mp4"
         md += f'<audio controls>\n'
-        md += f'  <source src="./{audio_filename}" type="audio/mp4">\n'
+        md += f'  <source src="./{audio_filename}" type="{audio_type}">\n'
         md += f'  Your browser does not support the audio element. '
         md += f'<a href="./{audio_filename}">Download audio</a>\n'
         md += f'</audio>\n\n'
@@ -222,10 +223,7 @@ def main():
     # Determine audio filename for markdown link
     audio_filename = None
     if audio_file:
-        if audio_file.suffix == '.mp3':
-            audio_filename = audio_file.name.replace('.mp3', '.mp4')
-        else:
-            audio_filename = audio_file.name
+        audio_filename = audio_file.name
     
     # Generate markdown
     markdown = generate_markdown(speakers, title, ai_summary, audio_filename)
@@ -238,13 +236,8 @@ def main():
     output_file.write_text(markdown)
     print(f"✓ Converted to '{output_file}'")
     
-    # Rename audio file to .mp4 if it's .mp3 (in same directory)
-    if audio_file and audio_file.suffix == '.mp3':
-        dest_audio = input_dir / audio_file.name.replace('.mp3', '.mp4')
-        import shutil
-        shutil.copy2(audio_file, dest_audio)
-        audio_file.unlink()  # Remove original .mp3
-        print(f"✓ Renamed audio to '{dest_audio.name}' (.mp3 → .mp4 for GitHub)")
+    if audio_file:
+        print(f"✓ Found audio file: {audio_file.name}")
 
 
 if __name__ == "__main__":

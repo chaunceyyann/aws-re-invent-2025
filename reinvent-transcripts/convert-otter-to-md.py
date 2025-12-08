@@ -132,9 +132,13 @@ def generate_markdown(speakers, title, ai_summary=None, audio_filename=None):
     md += f"**Date:** {datetime.now().strftime('%B %d, %Y')}\n"
     md += f"**Source:** otter.ai\n\n"
     
-    # Audio link if provided
+    # Audio player if provided (using HTML5 audio tag for GitHub)
     if audio_filename:
-        md += f"🎧 [Listen to recording](./{audio_filename})\n\n"
+        md += f'<audio controls>\n'
+        md += f'  <source src="./{audio_filename}" type="audio/mp4">\n'
+        md += f'  Your browser does not support the audio element. '
+        md += f'<a href="./{audio_filename}">Download audio</a>\n'
+        md += f'</audio>\n\n'
     
     # AI Summary if provided
     if ai_summary:

@@ -3,7 +3,10 @@
 **Date:** December 07, 2025
 **Source:** otter.ai
 
-🎧 [Listen to recording](./Role Transition Overview.mp4)
+<audio controls>
+  <source src="./Role Transition Overview.mp4" type="audio/mp4">
+  Your browser does not support the audio element. <a href="./Role Transition Overview.mp4">Download audio</a>
+</audio>
 
 ## AI Summary
 ### Overview

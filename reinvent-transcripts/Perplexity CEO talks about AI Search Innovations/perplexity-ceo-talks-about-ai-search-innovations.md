@@ -11,111 +11,73 @@
 ## AI Summary
 ### Overview
 
-The meeting discussed securing AI agents using Okta's Odo Zero platform. Wayne Smiley and Joe Frisk highlighted the importance of fine-grained access, asynchronous authorization, and user permissions for AI agents. They demonstrated how Okta integrates with AWS Bedrock and Agent Core to enhance security. Joe Frisk shared Dine Brands' digital transformation journey, emphasizing centralized identity management and personalization. The discussion also covered the new Cross-App Access (XA) protocol, which enhances enterprise-level control and visibility in AI applications, reducing user consent fatigue. The session concluded with a demo of Okta's integration with Amazon Quick Suite.
-
-Action Items
-
-More options
-
-Share Cross-App Access developer documentation and QR/link assets used in the presentation for attendees to access.
-
-Coordinate and manage enrollment for Okta Cross-App Access beta; provide onboarding instructions to interested Okta customers who scan the right QR/link.
-
-Distribute demo assets (slides, short demo recording or links, and the QR links) and any follow-up materials to attendees after the session.
-
-Staff Okta booth 339 this afternoon and be available for follow-up conversations with attendees.
-
-Prepare and share a concise Dine Brands case-study summary (identity automation, AI identity org chart, lessons learned) for attendees interested in real-world implementation details.
-
-Encourage developers in the audience to review the Bedrock / QuickSuite integration docs by scanning the left QR code (developer how-to and reference materials).
-
-Encourage Okta customers in the audience to join the Cross-App Access beta by scanning the right QR code or using the provided link.
+The discussion centered on Perplexity, an AI-native search engine, and its rapid growth. Aravind Srinivas, co-founder and CEO, highlighted Perplexity's use of AWS and its focus on providing personalized, instant answers. The platform, which has replaced traditional web search for many users, leverages open-source models like Llama and GPT-4 for accuracy and efficiency. Perplexity's browser integration significantly increases user queries by 6x, offering a more contextual and personalized assistant. The company emphasizes determination and long-term vision, aiming to build a comprehensive personal assistant.
 
 ### Outline
 
 
-**Introduction and Safe Harbor Statement**
+**Perplexity Labs and AI Native Companies**
 
-- Speaker 1 welcomes everyone to Day 86 of Reinvent, humorously referring to it as day one.
-- Speaker 1 asks the audience how many have an IAM agent with more rights in AWS than they do.
-- Speaker 1 introduces Wayne Smiley, a principal solution architect on the alliances team at Okta, who covers AWS and Okta.
-- Wayne Smiley mentions his extensive experience in identity management and introduces Joe Frisk, the CISO for Dine Brands.
+- Speaker 1 and Speaker 2 discuss the use of AI technologies by older companies like JP Morgan and Netflix.
+- Speaker 2 introduces Perplexity, an AI-native company formed in the AI era, which is reimagining search.
+- Speaker 3 explains Perplexity's goal of providing personalized answers to cut through the noise of traditional search.
+- Speaker 2 shares personal experience using Perplexity, noting its replacement of traditional web search.
 
-**Introduction of Speakers and Meeting Agenda**
+**Consumer Desire vs. Behavior**
 
-- Joe Frisk introduces himself, detailing his 30-year career in the industry, including roles at Bank of America and PwC.
-- Tara Venkatasen introduces herself as a product marketing lead for Okta, supporting the Odo Zero platform.
-- Tara outlines the meeting agenda, which includes discussing securing bedrock with Odo Zero, Odo Zero for AI agents, securing Quick Suite with Amazon Q and Okta, and cross-app access.
-- Tara emphasizes the importance of implementing AI into existing pipelines to maximize developer velocity.
+- Speaker 3 discusses the distinction between consumer desire and behavior, using the example of searching for "pizza near me."
+- Speaker 3 explains how AI can provide direct answers, reducing the cognitive load of users.
+- Speaker 3 predicts that traditional web search will eventually be replaced by AI-driven solutions.
+- Speaker 2 recalls the initial use of Perplexity two and a half years ago and its instant product-market fit.
 
-**Challenges and Risks of AI Agents**
+**Early Adopters and Research Tools**
 
-- Tara discusses the significant changes AI has brought to the developer toolkit, emphasizing the need to adopt AI tools like Quad Code or GitHub Copilot.
-- She highlights the importance of mitigating risks around code quality, data privacy, and data security to ensure secure AI agents.
-- Tara explains the evolution from predictive AI to generative AI and now to AI agents, which manage complex workflows using APIs and internal services.
-- She identifies the biggest risk in AI as security, noting that developers are relying on DIY solutions to integrate security into AI applications.
+- Speaker 3 mentions that early adopters of Perplexity were academics and researchers.
+- Speaker 1 and Speaker 3 discuss the evolution of GPT models from research access to user-friendly interfaces.
+- Speaker 3 emphasizes the concept of citizen researchers and the need for tools to help everyone ask and get instant answers.
+- Speaker 2 inquires about the initial idea behind creating a full replacement for web search.
 
-**Misconceptions and Reality of AI Security**
+**Building Perplexity and Initial Challenges**
 
-- Tara lists six common myths developers face when prioritizing speed over security, such as LLMs handling authentication and LLMs being harmless in a fast-paced environment.
-- She explains that these myths lead to system-breaking risks like unauthorized data access, users with stale rules, and compliance failures.
-- Tara discusses the inevitable reality of AI introducing huge risks when foundational myths are unaddressed, leading to over-provisioned access and weak authorization.
-- She emphasizes the need to integrate governance directly with generative AI workflows using customer identity and access management best practices.
+- Speaker 3 shares the story of how Perplexity was initially built to help with health insurance queries.
+- Speaker 3 explains the need for factual grounding in AI responses to build trust.
+- Speaker 3 discusses the early challenges of building Perplexity without web search integration.
+- Speaker 2 highlights the speed and efficiency of Perplexity, which provides near-instant answers.
 
-**Okta's Solution for AI Agents**
+**Infrastructure and User Experience**
 
-- Tara introduces Okta's solution for AI agents, which includes user authentication, asynchronous authorization, and fine-grained authorization for RAG.
-- She explains how Okta's features ensure stronger security, seamless scalability, and maximum developer efficiency.
-- Wayne Smiley discusses the integration of Okta with AWS Bedrock and Agent Core, highlighting the benefits of using Okta for fine-grained access and human consent.
-- Wayne demonstrates how Okta's token vault and human consent features enhance security in AI applications.
+- Speaker 3 explains the UX hacks used to make Perplexity feel fast, such as streaming answers token by token.
+- Speaker 3 discusses the importance of showing users the model's work to build trust.
+- Speaker 3 mentions the role of infrastructure, including CDN, server-side rendering, and minimal homepage design.
+- Speaker 1 asks about the technical stack used to build Perplexity.
 
-**Demo of Okta and Bedrock Integration**
+**Model Routing and Cost Efficiency**
 
-- Wayne demonstrates a chatbot that uses Okta, Bedrock, and Agent Core to manage access and permissions.
-- He shows how a user logs in using Okta's Fastpass MFA and how the chatbot uses tokens to authenticate and authorize actions.
-- Wayne explains how human consent is required for sensitive actions, using a password reset request as an example.
-- He highlights the importance of securing sensitive data in AI applications and how Okta's features help achieve this.
+- Speaker 3 explains the decision to use open-source models instead of building their own.
+- Speaker 3 discusses the benefits of using open-source models, including cost savings and faster innovation.
+- Speaker 3 mentions the process of post-training models for accuracy and grounding.
+- Speaker 2 inquires about the most expensive aspects of building Perplexity.
 
-**Introduction to Amazon Quick Suite**
+**Browser Integration and User Behavior**
 
-- Wayne introduces Amazon Quick Suite, which combines Amazon Q and Amazon QuickSight, and discusses its features.
-- He explains how Quick Suite creates charts, automates tasks, and builds apps using data from various locations.
-- Wayne highlights the concept of spaces in Quick Suite, which allow users to collaborate on data.
-- He discusses the limitations of Quick Suite, such as the lack of automated security and ease of use, and how Okta addresses these limitations.
+- Speaker 3 discusses the launch of the Perplexity browser and its impact on user behavior.
+- Speaker 3 notes that users ask more questions when using the browser compared to standalone tools.
+- Speaker 3 explains how the browser provides context and allows for orchestration of actions.
+- Speaker 3 envisions the browser as a personal assistant with agency and context.
 
-**Okta's Integration with Quick Suite**
+**Long-Term Vision and Product Strategy**
 
-- Wayne explains how Okta makes Quick Suite better, safer, and easier to use by automating group management and providing self-service access.
-- He demonstrates how Okta's phishing-resistant MFA and self-service requests enhance security in Quick Suite.
-- Wayne shows how Okta provides one-click access to Quick Suite, making it easier for end users to access the platform.
-- He highlights the benefits of Okta's integration with Quick Suite, such as reducing consent fatigue and providing full visibility into data connections.
+- Speaker 1 asks about the future product strategy and whether Perplexity will follow a similar path to Google.
+- Speaker 3 emphasizes the importance of building a truly general-purpose assistant.
+- Speaker 3 discusses the potential for launching new products if they help build a better assistant.
+- Speaker 2 asks about the lessons learned from building an AI company.
 
-**Cross-App Access (XA) Protocol**
+**Entrepreneurship and Determination**
 
-- Wayne introduces the Cross-App Access (XA) protocol, an open-source standard that enhances enterprise-level control and visibility in AI applications.
-- He explains how XA shifts control from individual apps to the identity provider, providing a single source of control and governance.
-- Wayne demonstrates how XA works technically, showing how apps and identity providers interact to mint access grants and issue tokens.
-- He highlights the benefits of XA, such as securing enterprise data and ensuring compliance with enterprise identity standards.
-
-**Demo of Cross-App Access Protocol**
-
-- Wayne demonstrates how the Cross-App Access protocol works in a simple AI bot application.
-- He shows how the bot logs in using Okta and how it connects to Bedrock and Okta to manage access and permissions.
-- Wayne explains how XA eliminates the need for user consent and provides a seamless user experience.
-- He highlights the importance of securing AI-driven interactions and how XA helps achieve this.
-
-**Joe Frisk's Experience with Digital Transformation**
-
-- Joe Frisk discusses the strategic imperatives that led Dine Brands to focus on internal digital transformation and employee experience.
-- He explains the challenges of managing identities for corporate, restaurant, and guest users and the importance of centralizing identity management.
-- Joe highlights the success of Dine Brands in improving the user experience and reducing abandon rates for loyalty programs.
-- He discusses the future of digital employee experience at Dine Brands, including the use of AI for personalization and efficiency.
-
-**Conclusion and Q&A**
-
-- Wayne and Tara thank Joe Frisk for his insights and wrap up the session.
-- They invite the audience to visit Okta's booth for further discussions and encourage them to follow Okta on social media.
-- The session concludes with a Q&A session, where the audience asks questions about the topics discussed.
+- Speaker 3 highlights the importance of determination in entrepreneurship.
+- Speaker 3 shares examples of companies that have faced difficult moments but succeeded.
+- Speaker 3 mentions the role of long-term vision in building successful companies.
+- Speaker 1 and Speaker 2 discuss the challenges and strategies of building a successful AI company.
 
 ## Speakers
 

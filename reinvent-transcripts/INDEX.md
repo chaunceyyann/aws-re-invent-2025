@@ -30,7 +30,7 @@ JP Morgan's investment strategy and innovation in blockchain, biometrics, and AI
 
 ### [Perplexity CEO talks about AI Search Innovations](./Perplexity%20CEO%20talks%20about%20AI%20Search%20Innovations/perplexity-ceo-talks-about-ai-search-innovations.md)
 **Date:** December 8, 2025  
-Perplexity CEO discusses innovations in AI-powered search technology and the future of information discovery.
+Aravind Srinivas, CEO of Perplexity, discusses the AI-native search engine's rapid growth and use of AWS. Focus on personalized instant answers using open-source models like Llama and GPT-4. Browser integration increases queries by 6x with contextual assistance.
 
 ---
 

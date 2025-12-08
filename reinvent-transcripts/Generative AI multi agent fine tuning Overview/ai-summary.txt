@@ -1,0 +1,251 @@
+Summary
+Transcript
+Template:
+General
+Overview
+The team from AWS's Generative AI Innovation Center discussed their approach to fine-tuning language models, focusing on balancing accuracy, cost, and latency. They highlighted the shift towards smaller, cheaper models under 7 billion parameters, which offer cost savings but have limitations in generalization. Their solution involves a multi-agent system that automates data augmentation and fine-tuning, using pattern analysis and quality agents to improve model performance. Experiments showed an average 29% improvement over baseline fine-tuning, with the system achieving significant cost and time savings. The team emphasized the importance of automated processes in scaling model customization.
+Action Items
+More options
+This list can be reordered. To drag an action item, press space or enter on the drag handle. Use the up and down arrow keys to move the action item. To drop the item, press space or enter again. To cancel drag and drop, press escape.
+
+
+Complete the quick session survey in the app before leaving.
+
+
+
+
+
+
+
+Share the paper link / QR code, program links, and the FAQ/resources referenced during the talk with attendees.
+
+
+
+
+
+
+
+Provide access to the agent workflow artifacts (pattern summaries, generation strategies, and quality-agent feedback) so model developers can review and edit generation instructions.
+
+
+
+
+
+
+
+Assess the need and design for a human-in-the-loop review step for cluster outcomes (e.g., when to surface clusters for manual inspection) and report recommended changes.
+
+
+
+
+
+
+
+Investigate and prototype additional agents (data-cleaning agent, hyperparameter-suggestion agent) and a dynamic orchestrator that decides which agents to run.
+
+
+
+
+
+
+
+Continue running large-scale automated fine-tuning experiments using the pipeline (schedule next batch and monitor resource needs).
+
+
+
+
+
+
+Add action item
+
+Outline
+Introduction to the Team and Mission
+
+
+•
+Speaker 1 introduces the team, mentioning their roles at the AWS Generative AI Innovation Center.
+
+
+•
+The team's mission is to help customers design, prototype, and launch generative AI solutions at scale.
+
+
+•
+The Innovation Center pairs science and strategy experts with customers to accelerate generative AI adoption on AWS.
+
+
+•
+The team works hands-on with customers to move AI solutions into production.
+
+
+Challenges with Fine-Tuning Language Models
+
+
+•
+Speaker 1 discusses the challenges of fine-tuning language models, focusing on accuracy, cost, and latency.
+
+
+•
+Larger models achieve higher performance but are expensive to train and run at scale.
+
+
+•
+Latency is crucial for end-user experience, and small models are preferred for their efficiency.
+
+
+•
+Customers often make trade-offs between accuracy and cost in production environments.
+
+
+Shift Towards Smaller Language Models
+
+
+•
+Speaker 1 explains the shift towards smaller, faster, and cheaper language models for production.
+
+
+•
+Small models require less GPU memory and compute, making them cost-effective.
+
+
+•
+They generate tokens faster, reducing latency and improving customer experience.
+
+
+•
+Training small models is challenging due to their inherent limitations in generalization and reasoning capabilities.
+
+
+Customization Techniques for Language Models
+
+
+•
+Speaker 1 outlines various customization techniques, including supervised tuning, reinforcement learning, and pre-training.
+
+
+•
+The team recommends starting with simple techniques like prompt engineering before moving to more complex methods.
+
+
+•
+Supervised fine-tuning is highlighted as an effective method for learning domain-specific patterns and terminology.
+
+
+•
+The upfront cost of customization includes investments in duration, augmentation science, engineering efforts, and infrastructure costs.
+
+
+Multi-Agent System for Automating Fine-Tuning
+
+
+•
+Speaker 1 introduces the multi-agent system designed to automate the iterative refinement process for small language models.
+
+
+•
+The system addresses the challenges of data preparation, model fine-tuning, and error analysis.
+
+
+•
+It orchestrates the analysis of training errors and generalization gaps to improve model performance.
+
+
+•
+The automated end-to-end training pipeline validates data augmentation strategies quickly and efficiently.
+
+
+Design and Functionality of Multi-Agent System
+
+
+•
+Speaker 3 provides a high-level overview of the multi-agent system, including the orchestrator, data generation agent, and quality agent.
+
+
+•
+The orchestrator executes the workflow, while the data generation agent generates additional training data based on error patterns.
+
+
+•
+The quality agent ensures the quality of generated samples to avoid hallucination and other issues.
+
+
+•
+The system automates the entire fine-tuning pipeline, from configuration to model evaluation.
+
+
+Detailed Explanation of Agents and Their Roles
+
+
+•
+Speaker 3 explains the design and functionality of each agent in the multi-agent system.
+
+
+•
+The pattern analysis agent identifies error patterns and generates targeted data strategies.
+
+
+•
+The quality agent ensures high-quality samples by providing scores and feedback.
+
+
+•
+The system uses clustering techniques to reduce the number of invocations and improve operational efficiency.
+
+
+Experimentation and Results
+
+
+•
+Speaker 3 presents the experimentation setup and results, comparing the multi-agent approach with baseline fine-tuning.
+
+
+•
+The multi-agent approach achieves an average of 29% relative improvement over the baseline.
+
+
+•
+Qualitative results from various data sets highlight the effectiveness of the system in addressing specific error patterns.
+
+
+•
+The system's design allows for dynamic orchestration with additional agents for fine-tuning.
+
+
+Conclusion and Future Work
+
+
+•
+Speaker 3 concludes by summarizing the key findings and future work for the multi-agent system.
+
+
+•
+The system addresses the shift towards using small language models and improves their performance through automation.
+
+
+•
+Future work includes expanding the system with additional agents and dynamic orchestration.
+
+
+•
+The team plans to present their research at the upcoming conference.
+
+
+Q&A Session
+
+
+•
+Speaker 1 opens the floor for questions, addressing concerns about data leakage, model compatibility, and automation.
+
+
+•
+Speaker 3 explains how the system prevents data leakage by using the training data for augmentation.
+
+
+•
+The system has been tested with multiple models, with varying results based on model size and complexity.
+
+
+•
+The automated pipeline requires minimal manual intervention, making it highly scalable and efficient.
+
+

@@ -1,0 +1,180 @@
+Summary
+Transcript
+Template:
+General
+Overview
+The discussion centered on Perplexity, an AI-native search engine, and its rapid growth. Aravind Srinivas, co-founder and CEO, highlighted Perplexity's use of AWS and its focus on providing personalized, instant answers. The platform, which has replaced traditional web search for many users, leverages open-source models like Llama and GPT-4 for accuracy and efficiency. Perplexity's browser integration significantly increases user queries by 6x, offering a more contextual and personalized assistant. The company emphasizes determination and long-term vision, aiming to build a comprehensive personal assistant.
+This list can be reordered. To drag an action item, press space or enter on the drag handle. Use the up and down arrow keys to move the action item. To drop the item, press space or enter again. To cancel drag and drop, press escape.
+
+Add action item
+
+Outline
+Perplexity Labs and AI Native Companies
+
+
+•
+Speaker 1 and Speaker 2 discuss the use of AI technologies by older companies like JP Morgan and Netflix.
+
+
+•
+Speaker 2 introduces Perplexity, an AI-native company formed in the AI era, which is reimagining search.
+
+
+•
+Speaker 3 explains Perplexity's goal of providing personalized answers to cut through the noise of traditional search.
+
+
+•
+Speaker 2 shares personal experience using Perplexity, noting its replacement of traditional web search.
+
+
+Consumer Desire vs. Behavior
+
+
+•
+Speaker 3 discusses the distinction between consumer desire and behavior, using the example of searching for "pizza near me."
+
+
+•
+Speaker 3 explains how AI can provide direct answers, reducing the cognitive load of users.
+
+
+•
+Speaker 3 predicts that traditional web search will eventually be replaced by AI-driven solutions.
+
+
+•
+Speaker 2 recalls the initial use of Perplexity two and a half years ago and its instant product-market fit.
+
+
+Early Adopters and Research Tools
+
+
+•
+Speaker 3 mentions that early adopters of Perplexity were academics and researchers.
+
+
+•
+Speaker 1 and Speaker 3 discuss the evolution of GPT models from research access to user-friendly interfaces.
+
+
+•
+Speaker 3 emphasizes the concept of citizen researchers and the need for tools to help everyone ask and get instant answers.
+
+
+•
+Speaker 2 inquires about the initial idea behind creating a full replacement for web search.
+
+
+Building Perplexity and Initial Challenges
+
+
+•
+Speaker 3 shares the story of how Perplexity was initially built to help with health insurance queries.
+
+
+•
+Speaker 3 explains the need for factual grounding in AI responses to build trust.
+
+
+•
+Speaker 3 discusses the early challenges of building Perplexity without web search integration.
+
+
+•
+Speaker 2 highlights the speed and efficiency of Perplexity, which provides near-instant answers.
+
+
+Infrastructure and User Experience
+
+
+•
+Speaker 3 explains the UX hacks used to make Perplexity feel fast, such as streaming answers token by token.
+
+
+•
+Speaker 3 discusses the importance of showing users the model's work to build trust.
+
+
+•
+Speaker 3 mentions the role of infrastructure, including CDN, server-side rendering, and minimal homepage design.
+
+
+•
+Speaker 1 asks about the technical stack used to build Perplexity.
+
+
+Model Routing and Cost Efficiency
+
+
+•
+Speaker 3 explains the decision to use open-source models instead of building their own.
+
+
+•
+Speaker 3 discusses the benefits of using open-source models, including cost savings and faster innovation.
+
+
+•
+Speaker 3 mentions the process of post-training models for accuracy and grounding.
+
+
+•
+Speaker 2 inquires about the most expensive aspects of building Perplexity.
+
+
+Browser Integration and User Behavior
+
+
+•
+Speaker 3 discusses the launch of the Perplexity browser and its impact on user behavior.
+
+
+•
+Speaker 3 notes that users ask more questions when using the browser compared to standalone tools.
+
+
+•
+Speaker 3 explains how the browser provides context and allows for orchestration of actions.
+
+
+•
+Speaker 3 envisions the browser as a personal assistant with agency and context.
+
+
+Long-Term Vision and Product Strategy
+
+
+•
+Speaker 1 asks about the future product strategy and whether Perplexity will follow a similar path to Google.
+
+
+•
+Speaker 3 emphasizes the importance of building a truly general-purpose assistant.
+
+
+•
+Speaker 3 discusses the potential for launching new products if they help build a better assistant.
+
+
+•
+Speaker 2 asks about the lessons learned from building an AI company.
+
+
+Entrepreneurship and Determination
+
+
+•
+Speaker 3 highlights the importance of determination in entrepreneurship.
+
+
+•
+Speaker 3 shares examples of companies that have faced difficult moments but succeeded.
+
+
+•
+Speaker 3 mentions the role of long-term vision in building successful companies.
+
+
+•
+Speaker 1 and Speaker 2 discuss the challenges and strategies of building a successful AI company.

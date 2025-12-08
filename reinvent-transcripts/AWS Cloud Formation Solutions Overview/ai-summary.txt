@@ -1,0 +1,299 @@
+Summary
+Transcript
+Template:
+General
+Overview
+The meeting covered AWS cloud solutions, focusing on cloud permission and smartphone provisioning at AWS. AWS CDK was highlighted for its ability to write high-level programs in various languages. The discussion emphasized the importance of guardrails, parameter validation, and intrinsic functions. Strategies for managing large stacks, such as breaking them into smaller, more manageable units, were discussed. The use of CloudFormation for creating resources and the benefits of using AWS CDK for better management were also covered. The session included a demo on using AWS CDK for template creation and drift remediation, showcasing features like early validation, rollback, and drift detection.
+Action Items
+More options
+This list can be reordered. To drag an action item, press space or enter on the drag handle. Use the up and down arrow keys to move the action item. To drop the item, press space or enter again. To cancel drag and drop, press escape.
+
+
+Automate provisioning in CI/CD so commits to Git trigger template deployment (set up pipeline automation).
+
+
+
+
+
+
+
+Use change sets to preview and validate deltas before executing updates in accounts.
+
+
+
+
+
+
+
+Refactor large/monolithic stacks into smaller stacks (foundation / network / application / service) to reduce blast radius and improve ownership.
+
+
+
+
+
+
+
+Evaluate and/or adopt AWS StackSets for organization-level stack deployment where appropriate.
+
+
+
+
+
+
+
+Replace brittle cross-stack exports where necessary by using SSM Parameter Store or dynamic references to reduce coupling when values may change.
+
+
+
+
+
+
+
+Try stack refactoring (CLI/console) to move resources between stacks; attendees should test the console stack-refactor experience for their use cases.
+
+
+
+
+
+
+
+Share the stack refactoring blog post and reference documentation with the team (link/resources).
+
+
+
+
+
+
+
+Install the AWS Toolkit for VS Code and test the in-IDE authoring, static validation (cfn-lint), and Cloud Control API import features.
+
+
+
+
+
+
+
+Use Cloud Control API and the IAC Generator to inventory accounts and import/manage existing manually-created resources into CloudFormation/CDK.
+
+
+
+
+
+
+
+Enable early validation of change sets in CI/CD pipelines and integrate guard rules (or custom guard files) to catch runtime/property issues before execution.
+
+
+
+
+
+
+
+Integrate drift detection and adopt drift-aware change-sets (revert-drift) in deployment workflows to remediate unauthorized or ad-hoc changes back to template state.
+
+
+
+
+
+
+
+Implement server-side validation hooks (Lambda hooks) and consider Control Tower managed rules to enforce critical guard rules for deployments.
+
+
+
+
+
+
+Add action item
+
+Outline
+AWS Cloud Permission and AWS CDK Overview
+
+
+•
+Speaker 1 discusses the popularity of cloud permission and smartphone provisioning at AWS, emphasizing the importance of infrastructure awareness.
+
+
+•
+Unknown Speaker mentions the ability to detect and manage drift, and introduces AWS CDK.
+
+
+•
+Speaker 1 explains the use of AWS CDK for writing high-level programs in various languages and the synthesized desired end state.
+
+
+•
+The process of using templates in production or staging environments and the role of CRPD automation pipelines is detailed.
+
+
+Template Deployment and Guardrails
+
+
+•
+Speaker 1 describes the use of templates in CloudFormation and the importance of guardrails, including preventative policy checks and customer-managed key resources.
+
+
+•
+The concept of parameter validation to ensure correct parameter values is introduced.
+
+
+•
+Speaker 1 explains the use of conditions and rules to conditionally create resources based on the environment, such as production versus dev-test setups.
+
+
+•
+The day-two workflow for making changes in IAC templates and the importance of using change sets for previews is discussed.
+
+
+Validation and Reusability in Templates
+
+
+•
+Speaker 1 emphasizes the importance of validation and reusability in templates, including the application of validation to parameters and the use of intrinsic functions.
+
+
+•
+The discussion includes the use of AWS CDK for creating multiple resources with similar properties and the benefits of using AWS CDK for troubleshooting.
+
+
+•
+Speaker 1 introduces the concept of large stacks and the need for breaking them down into smaller, more manageable stacks.
+
+
+•
+The benefits of using sets for organization and ownership are highlighted, along with the importance of using sets in organizations.
+
+
+Strategies for Managing Large Stacks
+
+
+•
+Speaker 1 discusses strategies for managing large stacks, including breaking them down into smaller stacks for better management and faster changes.
+
+
+•
+The importance of ownership and the role of different teams in managing specific stacks is emphasized.
+
+
+•
+Speaker 1 introduces the concept of using sets for organization and the benefits of using sets in organizations.
+
+
+•
+The discussion includes the importance of using sets for reusability and the role of different teams in managing specific stacks.
+
+
+AWS CDK and Intrinsic Functions
+
+
+•
+Speaker 1 explains the use of AWS CDK for creating resources and the benefits of using intrinsic functions for managing resources.
+
+
+•
+The discussion includes the use of AWS CDK for creating multiple resources with similar properties and the benefits of using AWS CDK for troubleshooting.
+
+
+•
+Speaker 1 introduces the concept of using AWS CDK for creating large stacks and the importance of using AWS CDK for better management.
+
+
+•
+The benefits of using AWS CDK for creating large stacks and the importance of using AWS CDK for better management are highlighted.
+
+
+Stack Refactoring and CDK World
+
+
+•
+Speaker 3 discusses the concept of stack refactoring and the benefits of using CDK for managing resources.
+
+
+•
+The discussion includes the use of CDK for creating resources and the benefits of using CDK for better management.
+
+
+•
+Speaker 3 introduces the concept of using CDK for creating large stacks and the importance of using CDK for better management.
+
+
+•
+The benefits of using CDK for creating large stacks and the importance of using CDK for better management are highlighted.
+
+
+CloudFormation and CDK Integration
+
+
+•
+Speaker 3 explains the integration of CloudFormation and CDK for better management of resources.
+
+
+•
+The discussion includes the use of CloudFormation for creating resources and the benefits of using CloudFormation for better management.
+
+
+•
+Speaker 3 introduces the concept of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management.
+
+
+•
+The benefits of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management are highlighted.
+
+
+Validation and Deployment in CloudFormation
+
+
+•
+Speaker 3 discusses the validation and deployment process in CloudFormation, including the use of change sets and early validation.
+
+
+•
+The discussion includes the use of CloudFormation for creating resources and the benefits of using CloudFormation for better management.
+
+
+•
+Speaker 3 introduces the concept of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management.
+
+
+•
+The benefits of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management are highlighted.
+
+
+Drift Remediation and Revert Drift
+
+
+•
+Speaker 3 explains the concept of drift remediation and the ability to revert drift in CloudFormation.
+
+
+•
+The discussion includes the use of CloudFormation for creating resources and the benefits of using CloudFormation for better management.
+
+
+•
+Speaker 3 introduces the concept of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management.
+
+
+•
+The benefits of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management are highlighted.
+
+
+Cross-Account Drift Detection
+
+
+•
+Speaker 4 asks about cross-account drift detection, and Speaker 3 explains the current limitations and potential solutions.
+
+
+•
+The discussion includes the use of CloudFormation for creating resources and the benefits of using CloudFormation for better management.
+
+
+•
+Speaker 3 introduces the concept of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management.
+
+
+•
+The benefits of using CloudFormation for creating large stacks and the importance of using CloudFormation for better management are highlighted.
+
+

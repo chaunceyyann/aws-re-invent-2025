@@ -1,0 +1,492 @@
+# AWS CEO talks about AI Strategy
+
+**Date:** December 07, 2025
+**Source:** otter.ai
+
+<audio controls>
+  <source src="./AWS CEO talks about AI Strategy.mp4" type="audio/mp4">
+  Your browser does not support the audio element. <a href="./AWS CEO talks about AI Strategy.mp4">Download audio</a>
+</audio>
+
+## AI Summary
+### Overview
+
+The conversation features Matt Garner, CEO of Amazon Web Services (AWS), discussing the evolution and impact of AI on AWS. He reflects on the rapid growth of AWS from a few thousand attendees to 50,000 developers in Las Vegas. Garner highlights the increasing importance of AI, noting that while robotics has grown slower than expected, AI has become a significant focus. He emphasizes the integration of AI across various applications, making it a multi-billion-dollar business for AWS. Garner also discusses the role of AI agents and the future of AI in enterprise applications, stressing the importance of agility and innovation in AI development.
+
+Action Items
+
+More options
+
+Continue investing in and scaling Bedrock, GPU/compute offerings, and the infrastructure that supports inference and model deployment.
+
+Develop and prioritize agent core capabilities (secure isolated compute, permissions, tool access, auditing/logging) so enterprises can build production‑grade agents.
+
+Invest in or develop agent management and orchestration tooling (routing/orchestration, lifecycle management) to address the current "messy" state of agent coordination.
+
+Strengthen enterprise‑focused deployment patterns (VPC/security controls, trust and compliance features) and produce guidance for customers migrating models and workloads to the cloud.
+
+Clarify AWS product vs partner strategy: continue enabling partner ecosystem (top‑layer apps) while selectively building differentiated native solutions (security, cloud ops, developer tools).
+
+Produce messaging and practical guidance for CEOs/enterprise leaders on preparing data, infrastructure, skill training, and org changes for AI adoption.
+
+### Outline
+
+
+**AWS CEO Matt Garner's Keynote Introduction**
+
+- Speaker 1 introduces the final segment of the meeting, highlighting the anticipation and excitement for the conversation with Matt Garner, CEO of Amazon Web Services.
+- Speaker 2 shares a video message emphasizing AWS's commitment to giving customers the freedom to invent and the energy surrounding AI advancements.
+- Speaker 1 welcomes Matt Garner to the stage, setting the tone for the discussion.
+- Speaker 2 reflects on the growth of AWS over the years, noting the increase from a few thousand attendees to 50,000 developers in Las Vegas.
+
+**Reflecting on AI Predictions from 2022**
+
+- Speaker 4 asks Matt Garner to reflect on AI predictions from summer 2022, specifically whether they would have anticipated the current focus on AI.
+- Speaker 2 admits that while they wouldn't have predicted the exact focus on AI engines like ChatGPT, they were already excited about AI's potential in 2022.
+- Speaker 2 mentions AWS's existing AI tools like SageMaker and the early benefits of machine learning, suggesting a larger focus on AI in 2025.
+- Speaker 2 notes that while robotics was expected to grow faster, it has progressed more slowly than anticipated, with only 15-20% of workloads currently in the cloud.
+
+**The Role of AI in AWS's Business**
+
+- Speaker 4 inquires about the impact of AI on AWS's revenue and workload, asking if it can be quantified.
+- Speaker 2 explains that defining AI's impact is challenging, as it permeates various applications and services, making it hard to isolate AI-specific revenue.
+- Speaker 2 introduces the concept of "inference as a building block," suggesting that AI is integrated into many applications, not just standalone AI services.
+- Speaker 2 highlights the broader benefits of AI, such as increased usage of CPUs, Graviton processors, and other AWS services.
+
+**AI's Impact on AWS's Customer Relationships**
+
+- Speaker 1 asks how AWS's role with AI companies differs from its relationship with other customers like Netflix.
+- Speaker 2 explains that while the relationship varies, many companies are deeply integrated with AWS, similar to Netflix.
+- Speaker 2 discusses the benefits of cloud-native AI companies, such as access to a large customer base and trust in AWS's security and infrastructure.
+- Speaker 2 emphasizes the importance of partnerships and the mutual benefits of having customers and startups on the same platform.
+
+**The Evolution of AI Development Tools**
+
+- Speaker 4 reflects on the evolution of web development and the current state of AI development tools.
+- Speaker 2 acknowledges that while some building blocks remain the same, new components like inference have introduced new capabilities.
+- Speaker 2 compares the current AI development landscape to the early days of mobile app development, noting the need for new tools and approaches.
+- Speaker 2 discusses the potential for smaller teams to deliver innovative AI applications, thanks to new development tools and capabilities.
+
+**The Future of AI Agents**
+
+- Speaker 1 asks about the future of AI agents and their role in AWS's strategy.
+- Speaker 2 explains that agents are part of the middle layer of AWS's stack, building on core building blocks like secure compute environments.
+- Speaker 2 predicts that over the next year, enterprises will see significant value from agents, particularly in task automation and content creation.
+- Speaker 2 emphasizes the importance of creativity and innovation in leveraging AI agents for new use cases and applications.
+
+**CEO Perspectives on AI and Cloud Strategy**
+
+- Speaker 1 inquires about the questions CEOs are asking AWS about AI and cloud strategy.
+- Speaker 2 notes that AI and cloud strategy have become CEO-level concerns, with leaders thinking about how to stay ahead of technological disruptions.
+- Speaker 2 highlights the importance of organizational agility and the need for businesses to adapt quickly to new technologies.
+- Speaker 2 discusses the challenges of balancing conservatism with the need to innovate and move fast in a rapidly changing technological landscape.
+
+**Learning from Leadership and Mentorship**
+
+- Speaker 4 asks about the questions Matt Garner is asking his mentors and peers.
+- Speaker 2 shares that he is still learning and values advice on leadership, decision-making, and organizational structure.
+- Speaker 2 emphasizes the importance of assimilating different perspectives and finding what works best for his company and culture.
+- Speaker 2 appreciates the time and effort mentors and peers put into sharing their experiences and insights.
+
+**Matt Garner's Career Journey and Lessons Learned**
+
+- Speaker 1 reflects on Matt Garner's career journey, starting as a dev manager and intern at AWS.
+- Speaker 2 shares his experience transitioning from a product manager to leading sales and marketing, despite having no prior sales experience.
+- Speaker 2 discusses the importance of customer focus and the unique approach AWS took in sales, emphasizing cost reduction and customer satisfaction.
+- Speaker 2 highlights the value of learning from mistakes and the continuous improvement mindset that has driven AWS's success.
+
+**Advice for the Future**
+
+- Speaker 4 asks Matt Garner for advice he would give to his past self.
+- Speaker 2 reflects on the importance of learning from challenges and the value of making mistakes as opportunities for growth.
+- Speaker 2 discusses the balance between being prepared for the future and being open to new ideas and opportunities.
+- Speaker 2 emphasizes the importance of staying customer-focused and continuously innovating to meet evolving needs and expectations.
+
+## Speakers
+
+- Speaker 1
+- Speaker 2
+- Speaker 3
+- Speaker 4
+- Unknown Speaker
+
+## Transcript
+
+**Unknown Speaker (00:00):**  
+You same as ever, same as ever. Our final
+
+**Speaker 1 (00:06):**  
+segment, we have the reason we are all here and an incredible conversation that we've been looking forward to for months. So before we bring that out, watch a little video on AWS.
+
+**Speaker 2 (00:21):**  
+What drives us every day is giving you all the freedom to invent. There's a bunch of launches that AWS is very excited about. Are we missing an explosion of invention with AI? It is incredible to feel the energy as walk through the halls here in Las Vegas, dive deep into the details and start inventing. We're just getting started.
+
+**Speaker 1 (00:51):**  
+Please welcome the CEO of Amazon Web Services. Matt Garner,
+
+**Speaker 3 (01:02):**  
+Lisa, well,
+
+**Unknown Speaker (01:08):**  
+okay, hope you've been too busy this week.
+
+**Unknown Speaker (01:10):**  
+No, just been hanging out a fool.
+
+**Speaker 4 (01:14):**  
+I've seen you, Kramer, I've seen you on tvpn. No poolside in either of them, no How many of these media I've done
+
+**Speaker 2 (01:26):**  
+a bunch, but it's awesome. It's such great opportunity, so awesome to have all of our customers here. And as I think I just said in the video, and hopefully you guys experience the energy and excitement that we have to get this many people together, but they learn about our partners, they learn from each other. It's a cool opportunity. Then it's been fun to build. And it's our 14th year. I remember the first year here, I think we had two or 3000 people, and I thought it was crazy that you
+
+**Unknown Speaker (02:00):**  
+told somebody back in the.com era that in 2025, Amazon,
+
+**Speaker 1 (02:10):**  
+50,000 developers in Las Vegas, a lot of books? Yeah, I
+
+**Unknown Speaker (02:21):**  
+remember when we launched AWS, a can't
+
+**Speaker 2 (02:24):**  
+remember what conference it was, but, like, we had one of these like booths, right? We were adding like computers, like,
+
+**Speaker 3 (02:35):**  
+they were very confused. We eventually got over that. But definitely All right, so
+
+**Speaker 4 (02:40):**  
+I wanted to start today been talking a lot about AI. I wanted to ask you if you could honestly put yourself in the headspace of summer 2022 before the chat GPT moment. And if I had come up to you and say, Hey, Matt, we're going to talk on stage at the 2025 reinvent what do you think we'll be talking about? What was your answer?
+
+**Speaker 2 (03:03):**  
+Yeah, probably wasn't going to be aI engines, necessarily, you know, but, but I will say it may have been AI, because I think we were at the time, even in 2022 like you go back to another 10 years, maybe not in 2022 we were very excited the potential of AI. Saw where it was going to go. I think it's going to be as it is right now. Of course not. And I don't think anyone would have projected exactly that but, but it wouldn't surprise me that was a main focus of what we were doing. We already had sagemaker. We already had a bunch of the things that we were building. So I wouldn't have been surprised that. In fact, I probably would have guessed was bigger than it would have been a 2022. There was a bigger focus for people today, because we saw some of the early machine learning benefits, if you will, of technology, but nothing like it. You know, I think there's, there's some other areas that I would have expected that have actually grown faster, that haven't, and they'll get there, but I would just thought robotics would have grown faster than they have today. Actually, it's gone a little bit slower than I would have thought. So I can think of her, believe we actually launched the service in this early maker at the time that didn't take off because it was just robotically ready for it. But, yeah, I think that's, that's something, but I will say it's, it's, you know, it's that, and I some of the challenges that our customers are facing today are remarkably consistent. You know, it's really, we often say today, less than 15 to 20% of workloads is actually rooted to the cloud from off ground still. And it's like, if you, if you looked at, you know, on Monday, we blew up a bunch of servers, yeah, but that's all about, like, getting rid of tech debt and helping people migrate out the mainframes and migrate off of like that is all the same. Definitely want to get off one of those Yan and they have, a lot of them have, and they're still up
+
+**Unknown Speaker (04:50):**  
+there. It's funny. You know, one of the principles
+
+**Speaker 1 (04:54):**  
+every time that and I make an episode, we try and do only studies greatest companies in the world. We try and take something from every company we study, this, our little operation here, and that one of the venues that we brought from Amazon. And yes, what's not going to change. And like, you know, we spent a lot of time, like, AI agents and all that. But like, even if that hadn't happened, yeah, people are still going to be moving to the cloud. They are saying,
+
+**Speaker 2 (05:20):**  
+like, hey, you know, a bunch of these, like enterprises. And after that, some analysts were saying this, and they're like, you know, do you think next year when you come here, like, everybody will have moved AI? It's like, no. 20 years, everyone hasn't moved to our cloud yet. And for those people whose data is still locked in a mainframe, like they're definitely not jumping into getting value out of AI yet. What is the last year moving people to cloud? It's not going to be 2026. There's a long runway.
+
+**Speaker 4 (05:56):**  
+Give us a sense? I don't know if you want to frame it in terms of like revenue or workload or compute, how much of AWS? Right now are AI things, AI applications?
+
+**Speaker 2 (06:06):**  
+Yan, it's I actually think that that question, in some ways, is getting harder and harder to answer every time, right? I can tell you that bedrock is a multi billion dollar business. I can tell you what we sell GPUs. But like I do think that that is a, in some ways, kind of undersells the impact of it, right? Let's say you have an application, like Workday that has, like, AI assistance in it, and agents and workflows behind the scenes and etc. Like, is that an AI application? Does all workday accounts? Do you just want the GPUs with them running, like, what counts as AI? And so we see a massive you know, if everybody's storing stuff in Sri right, and some of its bedding, but some of it is referencing their objects, and it's driving them to get more and better objects into s3 is that an AI workload or not? Like I do? I think, actually, I introduced this in my keynote last year, and I think it's more true than it's ever been, that it really is this concept of inference as a building block. There were, there are applications right? Arno, talk about perplexity. That is my application, like pretty much. But I think increasingly every application will just have AI in it. There's not like a database application. There's not like a storage within our right, but there. But everything is just a database with a crowd but, but, you know, like there's, these are just components you go to build interesting customer experiences or value or whatever. What do you think about Chase payments? Like? Is that a database application? No, it's like an interesting payments application that does really cool things. Is it going to have AI in it? Yeah. And is it making an AI application? And so I think that, like today, it's definitely a multi billion dollar business for us. It's a huge tailwind to our business. But it's not just for the quote, unquote like model running right? It's all of those pieces. It's people are driving to the clouds faster to get value from the AI better applications are getting more usage. And so it needs more CPUs, or anything, more Graviton, all those kind of pieces.
+
+**Speaker 1 (07:59):**  
+And so there's a question we want to ask you. This is the right time to ask it. Um, apologize in advance. It's not very well based
+
+**Unknown Speaker (08:07):**  
+workshop again, what works happening live?
+
+**Speaker 1 (08:10):**  
+That's right, AI is the first cloud native paradigm shift. Like, you can't have aI be an AI company and not be the cloud. It's just an option. Like, yeah, sure. You can install a model on your macro or something. But, like, never build a company. It must be a cloud. How does AWS is like, job change in that like, when you're working with AI companies, like, Are you a different or a bigger part of that company than you are? That's like a SaaS company that's like, hey, Yan, we're on AWS as our infrastructure. I don't know.
+
+**Speaker 2 (08:44):**  
+I haven't thought about that. I would say, in my mind, there are companies that are all in on AWS. There are companies out there like or the project with AWS, they have their kind of code in. And then there's ones that are kind of moving the majority of their work with there. And there's probably, like a continuum of those. But, you know, like, I don't know that an AI native company is, and their relationship with us is materially different than Greg's and Netflix. I mean, they're, they're 100% in on AWS. They have been for many and like many features, like, they talk to us like they need functionality when they need capability. They're great partners. We learned a ton, and that's true for AI companies. And Netflix. And, you know, could Netflix go and build data centers and run all that stuff? I guess, probably. But, you know, partnership, and they haven't needed
+
+**Speaker 1 (09:31):**  
+to, like, even, you know, even the foundation, all companies, like, yeah, they need class. Like, they're not
+
+**Speaker 2 (09:36):**  
+building there. They need, yeah, it's, I mean, they, I do think that there's, I don't know if they need it, by the way, like, I think some of these large companies, OpenAI, has talked about going Stargate, or whatever it is, they can build data now, you know, are they going to run those efficiencies and good use of their capital? Like all those things, are all good questions that people ask, and those are good questions, but it's possible, right? There's nothing that's impossible for them to do, but I don't know what they would right? And they get a lot of benefits from the cloud. They get a lot of benefits from customers also being in the cloud, right? And that that is really powerful, I think, particularly when you move away from consumer applications. For consumer applications like you get a lot of benefits of scale, get a lot of benefits of the technology pieces. When you get to enterprise applications, you also get benefits, because your customers are in that same cloud, you can deploy those models into your VPC to be in a secure environment. And there is a lot of really great flywheel things that happen there, where those enterprises trust AWS. We trust they trust us with their data security. They trust us with a bunch of those things that we've built up over the last 20 years, where then a new startup that has a new model that's exciting, to put it on bedrock, to just get some of that trust level, which is, which is cool
+
+**Speaker 4 (10:52):**  
+for David asked a question earlier that. I want to reframe for you. So I used to be a web developer. I hadn't written code. I've actually me and Claude wrote some code earlier
+
+**Unknown Speaker (11:02):**  
+that. Sat down in a text editor and myself,
+
+**Unknown Speaker (11:04):**  
+yeah, you actually
+
+**Unknown Speaker (11:05):**  
+built the good news is not many people are going to
+
+**Unknown Speaker (11:09):**  
+do that. Buyer has never had a
+
+**Unknown Speaker (11:13):**  
+software real estate and you we now have,
+
+**Unknown Speaker (11:15):**  
+like, a software
+
+**Speaker 1 (11:17):**  
+club generated software scripts. Yeah, yeah.
+
+**Unknown Speaker (11:20):**  
+I'm not gonna ask you where you play, but I hope they're not
+
+**Speaker 4 (11:29):**  
+the it used to be, five years ago, extremely obvious, if you said had to go web like, there's a pretty settled frontier. There's very off the shelf components. Everybody's sort of using the same paradigms. There's languages, there's frameworks, there's s3 there's easy to and David came up to me earlier today. He's like, Do you know how to build an AI app, or, like, an AI company? I was like, I don't actually know what the core building blocks are. Do you feel like all parts are popular?
+
+**Speaker 2 (12:02):**  
+Like all parts perspective over the air? Yes and no. Like, I would say a couple of pieces that I would say that I think on the first part, like, would challenge you to build, like, an interesting AI app probably
+
+**Speaker 2 (12:21):**  
+not still need that kind of thing. But like, you know, when you have, like, the front end of a chatbot, like CPUs are the most effective way of rendering that webpage, like,
+
+**Speaker 2 (12:35):**  
+it is similar, and I remember, actually, and I'll just like it as a side I remember when mobiles first started getting big. People were like, We need to build mobile building blocks. And then I was like, Are there different servers that you need for a mobile app? No, no. Actually, it was like, you know, there's, there's some, like, front end development tools and things that were different, but like, really, like, you still needed compute and storage, databases, and now an AI is different in that, I do think. And this goes back to I was just saying earlier. I think inference is one of those new building blocks. There was never a developer building block before. So it's like the world invented a new Lego. You had all your Legos. You could build whatever, and they've now invented some new Lego that was never possible before. You're like, Oh, that is a cool Lego. I can build incredible things, but I still need all other Legos I had before, but now I can take this one and build some super interesting new experiences you're still gonna like. It turns out like lambda is actually a great exclusive engine for a lot of agents workflows where you can call the model to actually be a compute environment to go do that. And so that, I think, is how you would think about that. I think, by the way, though, there's a lot of things that do change, right how you want to market might change how you think about how you talk a bunch
+
+**Speaker 2 (13:56):**  
+of customers out there, org structures are going to change, like, if you're starting a company, I don't know that. It's the exact work structure that we've used over the last 20 years to organize a development team. A lot of those things may actually change. What's different, I think you can, you can deliver with much smaller teams. So people may take 10 people or five people, or something like that faster.
+
+**Speaker 1 (14:22):**  
+Like that. We are in an event with sea of cursor, a couple, yeah, they may have 100 people. I heard they did pass the 100, but
+
+**Speaker 2 (14:35):**  
+yeah, like, you just need tiny teams. And even there, like, and you know, as we're finding it, you know, the roles may change like you may not have, like a traditional dev manager, you may have actually a dev lead, because the dev lead can actually dive in and actually help design some of the things you that, but with those capabilities to think about software development lifecycle, I think a lot of those
+
+**Speaker 1 (14:58):**  
+things will change. But I got to mention, there is no more exciting thing for Amazon and AWS than
+
+**Unknown Speaker (15:06):**  
+the event. Yeah, yeah.
+
+**Unknown Speaker (15:13):**  
+Well, it's exciting
+
+**Speaker 2 (15:15):**  
+for a business perspective. But I'm saying like it's exciting because, like it's not just, like, polishing the whole thing. Like, part of why everybody, like, why I think reinvent is so popular a bunch of people, is that when we first launched it, we didn't, we didn't watch based on the marketing conference, traditional kind of, like, those are popular. Lots of people have those conferences. But if you go and you look in the hallways out there, right, it's like people on their laptops. They're out there doing work sessions. They actually are doing hackathons, like we're doing like, this is meant to be a Learning Conference where people can learn how to use new technologies. And most of the sessions here are not getting comfortable customers who want to share what they've learned. And when there's a new building block, like, eyes light up. You're like, what can I build with that? And can I build with that? And don't get me wrong, but like that ability to go build some really cool new things, like perplexity, that was just impossible thing that you would have built in 2020 so
+
+**Speaker 4 (16:18):**  
+you're one of the most important platforms the world the job to be done with a platform is to build a set of capabilities that other people can build things on top of. Sometimes that means building your own, either demonstrations of those capabilities, or just extending the layer a little bit and doing some of the applications yourself. And some of the agents you announced earlier this week are an example of that work. Yeah. When should
+
+**Speaker 2 (16:48):**  
+we do that? Yeah, it's good question, and by the way, there's no magic answer. It's not like there's like, a very clear, cut and dry answer for what that is. We always think that our ecosystem of partners is capital. Partners, thanks for growing our business and for helping our customers and the full staff I saw earlier this week that partners usually drive about $7 of revenue for every dollar revenue they drive for AWS, just like that's pretty awesome for them, and it's like a huge opportunity for everyone. And we think about how we deliver value up and down that entire level of the stack. And if you think about it, is a funnel of the like number of opportunities, right? Because if you think about that top layer that's driving $7 for every like, every dollar, that is just a massive, massive business opportunity. And so there are 1000s or 10s of 1000s or hundreds of 1000s or millions of applications at that level. We think we'll have a couple of successful ones up there, and we do today, right? And we will continue to have a handful of those. And you mentioned we launched things like our frontier agents, and then self development space at that top layer, you know? And then we think about, where can we add differentiated value? But it is a funk. If you go down to the bottom, there's effectively three clubs, right, like, and then you go up to this next layer, and you will take whether it's models or databases and other kind of pieces, or analytics engines and things like that, where we do, you know, compete with some of our customers, but but in a very like positive way for both of us, where if you land on MongoDB, or you Land on snowflake re land on Databricks or the other partners at that level,
+
+**Unknown Speaker (18:26):**  
+great. We have
+
+**Speaker 2 (18:31):**  
+a lot of products in that space too, right? We have tons of customers who love using open source. We have from some customers who love using Aurora and all of our stuff that level, and we compete at that space, right? And but, but there's a real kind of partnership there, where everybody is growing huge, really successful businesses that level, and there's dozens, maybe hundreds of companies at that level. And then you go to this top level, and that's where. So that's where, at that top level in particular, you know, I think we're going to build stuff at these first two levels, like for most of those things, and we'll compete with people. But there's not that many things at that level that just doesn't make sense for us to not have a native solution for and customers, we always tell us, that's right. Customers good. They literally say, like, I want you to deliver something back. It's a good thing. Yeah, you know, I think if you go to this top layer, there's lots of things that, I mean, there's no way we can possibly build all of them. And so we build some where we think we have a particular either a competitive advantage, or there's something at Amazon or AWS, where we have an expertise and or a different way of approaching a problem that we think delivers differentiated results. I think actually, one of the things that Amazon is particularly bad at as being a fast follower. Like, we just when we try to copy someone, we're just bad, like, and so we just don't but if we can innovate, and we go build something different, is Amazon products
+
+**Unknown Speaker (19:50):**  
+from history, but I'll we're just, yeah, we're
+
+**Speaker 2 (19:55):**  
+not great at it. Because, yeah, we actually when we should fast follow. We still have this inherent thing, like, we should do something different, and then we usually mess it up. So we just don't we're just bad at that thing about solving a customer problem. We can do it differently. Take these kind of Frontier agents. We're like, we know developers. We really know what they want. We understand AI. We see some of the struggles that they're having with the first generation of AI development tools, where kind of by coding is good. It gets you to a place where it doesn't it's not structured. It doesn't help you develop an enterprise environment. It doesn't allow you to really have agents go and be autonomous and drive fast. And, you know, we saw some observations. It's like, we think that we have some ways to differentiate and deliver that, and we have something same thing about cloud operations, right? We're thinking about a DevOps agent, and they could go and autonomously go and help you find problems in your infrastructure. We have a lot of data there. We have a lot of knowledge about what best practices are, how we can help you do that. Same with security. We think we do some of the best security work in the world. We see more problems than anybody does. We have solutions across them. We think we can deliver a differentiated product in those spaces. And so that's when we go after and we're not always right. We don't have 100% batting average,
+
+**Speaker 1 (21:09):**  
+but that's kind of how we think about it. I like your three stages of the fall. What stage do you think agents are not they're not agents.
+
+**Speaker 2 (21:20):**  
+So if you, if you think about that, they're definitely at the bottom. I think agent core is that middle layer, right? And so the agent core is these building blocks where it's like you have
+
+**Unknown Speaker (21:30):**  
+a secure computer
+
+**Speaker 2 (21:33):**  
+that gives you, like an isolated computer environment. You can do gateways where it's like they have permissions. And so your agents can go talk to other agents that can talk to tools that binary permission. Great permissions, etc. So all these kind of building blocks go building agents on, we kind of think is somewhere in that, that middle layer, it still builds on our core building blocks, but it's and more secure to build like a wide range of agents in a in a real enterprise world where you can have an auto log, you can have controls, you can do a bunch of the things you want to do, and then the actual agents that people build are probably
+
+**Speaker 1 (22:07):**  
+more in that application layer, but it's new. Yeah, that was, that was our next question. We're back here a year from now, yeah. What is the conversation about agents in 12 months?
+
+**Speaker 2 (22:19):**  
+You know? Like, I think, just like any technology, I think that there's still going to be a bunch of people trying to figure out how to work them into their environment. And I think almost for sure, over the next year, you're going to see a ton of people getting a huge amount of value from agents. I do think that it is when you kind of look at that value creation, where you think about content summarization, you think about content creation as opposed to, like, actually going and accomplishing tasks. Like, the value to an enterprise is so much bigger for that second thing, because it's it really explodes out to like, not just like, summarize what happened, but actually go, you know, process my insurance claims like that is a totally different unlock for value and and I think we'll start to see some really, really, really compelling use cases that, frankly, I'm going to be really bad about predicting right now, but that's part of what I love about AWS. It's actually one of the things we've always loved, is we build these building blocks, we give this technology, and then we let the world have the creativity to go find some really cool things for them. And I think next year we'll have some really awesome use cases. It's interesting
+
+**Speaker 4 (23:27):**  
+thing about the agents as a paradigm, because flashback, 30 years ago, the web happens. We have websites and mobile happens. We have apps, AI happens. And in 2022 we get this, like these bare models with like a chat your face slapped on top. Couple more years go by, and now we have this notion of agents. What do you think the dominant paradigm is in the AI era? Is it agents? Is that going to be the sort of app of AI? It's not
+
+**Speaker 2 (23:59):**  
+really how I think about it, but that's an interesting question. I think this is slightly different, like, I'm not sure that those are equivalent paradigms necessarily. They're like, somewhat worth logging at, because you have, like, like, part of what was interesting about the web was it was like a different platform to actually go interact with and build stuff on top of, and the user interface was different. And like, you could and so that was, like, you had to build a website right when you had your phone, like, you had to, like, have you shrink it down. How do you actually have an app that's like, that's native and has capabilities, but like, the the application, and a lot of the things you could do were mobile and things. So I think with agents, it's more like a capability. Someone may invent a new way of consuming those things, which would be interesting, and I think would be some of those shifts today. I think there, in some ways, it's a complimentary technology, like the chatbot that you example. Turns out that's website. It's not like, it's not like, it's not a website, right? The website is actually something different. It wasn't an application that was on your computer. It was a website. The mobile app was a different thing. Was actually on your phone. These are things that are some ways complementary and super charging. The things that you already have. Doesn't mean someone won't come up with it yet, but yeah, and it may or may not, but in some ways, it's like, I assume that my mobile apps will have agents that are working for me behind the scenes. I assume that my websites will have AI and agents built into them, like all of those kind of things. So I don't know, someone may build something different, but they haven't yet. Agent management still feels really messy, like sure, but I believe there will be some interesting applications around agent management, for sure. And that is a very unsolved problem. I think it's an interesting one that someone out there should
+
+**Unknown Speaker (25:38):**  
+go build to put more structure around it.
+
+**Speaker 4 (25:39):**  
+I mean, if I pull up a website, it's very obvious what the website is. So I pull up my phone, I've got a UI that's my mobile app, and if I have agents acting on my behalf all throughout the world with this new compute paradigm, but at the
+
+**Speaker 2 (25:55):**  
+same time, you know you have when you click the button on a website, there's, like, a database query that's going and doing work. You don't know how to do that either, so I think we don't have to, I don't know, but maybe that's the job of everybody else to kind of figure not everybody, like the individual, like whoever has the website, it's their job to make sure that, like, the database query actually works. Sometimes you get a crash website, but yes, otherwise, that's maybe right. But I do think that there's an interesting if there really are a bunch of these positive agents, which I do believe they're going to be, there is going to need to be some way of coordinating across them, because in a world of billions of agents, like, no one can, like, keep billions of things in their heads and so. But in the same way that there's billions of compute processes, like, you have to come up with a good kind of router and orchestration engine to manage all of this. No person's going
+
+**Speaker 1 (26:48):**  
+to match those numbers for our next set of questions, we want to keep going with AI. We really want to ask that you too, like you're in a very, very interesting position here. You spend a lot of time with a lot of CEOs. I'm sure they are asking your thoughts. What are CEOs asking you and asking AWS about AI when they're coming to you with problems?
+
+**Unknown Speaker (27:15):**  
+Yeah, fortunate that it's it
+
+**Speaker 2 (27:23):**  
+fortunate for us that cloud and AI has elevated to it is actually like a CEO level thing, right? Technology used to be something that CEOs,
+
+**Speaker 1 (27:32):**  
+CEOs and CTOs like, CTO Sure, cloud strategy, what's your AI strategy?
+
+**Speaker 2 (27:37):**  
+Like those are CEO level questions. Level questions, which one was great and cool for us and what they're thinking about. It's not too dissimilar in some of the things that we're talking about. I think one they're thinking about, my they see, like they see, kind of the trend. And I think particularly if you go to the status, there's a little bit different, right? If you're the CEO of AI startup company, it's a little bit different, right? So if you take that, if you're saying, like, enterprise status, like someone who established business, they are trying to balance the fact that they realize there is a real risk that they could get disrupted with this technology, like there is a very real risk that 100 year old enterprises like Chase could get disrupted if they don't lean forward and and figure out how to stay ahead of this technology, they still have a pole position like they like anyone, if you're a bank, you would definitely rather be JP Morgan and like a brand new startup, but the risk is there, right? And so that risk is very real. And so I think a lot of people are thinking about, how do they but a lot of businesses out there quickly are not used to moving fast, right? They are there. They actually got to where they are by being conservative, by making sure they didn't make big mistakes, right? And it was like, and so I get that, if you're an insurance company that's 100 year old, insurance company, got to where you are by making sure you didn't, like, make dumb bets or do something. Yeah, we just covered, you know,
+
+**Speaker 1 (29:13):**  
+the worst thing they ever did, which turns his best thing
+
+**Speaker 2 (29:18):**  
+you don't want to be the one they're also recognizing that, like, if they stick on that that path, they're still slow and conservative, like this may be the thing that kills them. So I think a lot of people are thinking about, how do they make sure
+
+**Speaker 2 (29:36):**  
+that their data and their infrastructure is set up in the right way? I think they're thinking about, do they need to hire or train new skill sets? They're thinking about, do they need to organize differently so that they can have that they can move fast? And, you know, you mentioned earlier, kind of thinking about, like Jeff said, like, what are the things that don't change? I actually think that in today's world, one of the things you want to be thinking about, which won't matter what the next technology is, is how you make sure you can move fast and be agile, like those
+
+**Unknown Speaker (30:10):**  
+are skills are more expensive. So, you know, I do think
+
+**Speaker 2 (30:15):**  
+that that's where a lot of leaders are thinking about right now, because they're thinking about like, as a CEO, there's not that many things you can impact. You can impact who your leadership team is. You can love that you know where the direction you're going is, what the structure of it is, kind of what's in the goals about it. That's what a lot of people are thinking about. Can I
+
+**Speaker 4 (30:31):**  
+ask the opposite question? So when you go and you talk with your mentors and other CEO kids or members who give you advice, what are the questions that you're asking them?
+
+**Speaker 2 (30:44):**  
+I do love that, because I'm only, like, you're two or something, of me being a CEO, so I'm still learning part of that is, and I think everybody actually, any good CEOs, hopefully, or any good leader, is hopefully, spending a lot of their time learning. But there's a lot that I don't know about. I love just picking up tips on, how do you think about leading at scale rapid decision making? How do you think about pushing decision making down your teams? And I think that's one of the ways that you do real rapid decision making, is don't make decisions and get your team enabled to make decisions and then, but picking up like, how to do that, and what are the subtle things that you do? What are the areas that you don't do? And by the way, sometimes you get advice. You're like, interesting. I'm not gonna do that. I sat down with Yan, said he gave you some good advice and told me what he did.
+
+**Speaker 3 (31:34):**  
+I'm like, I'm not gonna accept you direct, you know, but
+
+**Speaker 2 (31:42):**  
+you know, I think that is but assimilating all that and then trying to figure out what works for you and your culture and your business. And I appreciate every time a CEO or leader is willing to take some time and share what works for them and have that conversation is just so valuable, because kind of taking assimilating all of those different data points is incredibly helpful, because these jobs are hard and they're fast moving, and we all want to do well for our company and our customers and our shareholders and but you know, trying to pick up tips is helpful for sure,
+
+**Speaker 1 (32:13):**  
+that, you know, I don't know how many folks in the audience know this. You started as a dev manager, intern, intern for easy to early days. Actually, I interned
+
+**Speaker 2 (32:29):**  
+at a business school, and when AWS was an internal project, we're building it internally. And I came and I worked on it. Holy crap. This seems awesome. And and I came back, basically, effectively, as the first product manager for AWS. PC two was
+
+**Unknown Speaker (32:45):**  
+the first product you worked on. That was actually a year later. So the first
+
+**Unknown Speaker (32:50):**  
+year I was at AWS as a trust member
+
+**Unknown Speaker (32:56):**  
+for all of AWS, I guess
+
+**Speaker 3 (32:57):**  
+you're still the AW, ever product manager. There was a product manager press three and then I was the rest of AWS. David, I met Matt
+
+**Speaker 4 (33:05):**  
+a few years ago, when you were leading sales for AWS 13 years that I've been leading, easy to at the time.
+
+**Speaker 2 (33:10):**  
+And then one day, Andy came to me and said, Hey, do you want to lead sales and marketing? I literally looked at him and I said, don't know anything about sales.
+
+**Unknown Speaker (33:27):**  
+Came out of a product and technology.
+
+**Unknown Speaker (33:29):**  
+Yan, like this
+
+**Unknown Speaker (33:31):**  
+is the strangest person. You need sales person?
+
+**Unknown Speaker (33:37):**  
+Yeah, he was, he literally and I said,
+
+**Speaker 2 (33:42):**  
+I don't know about sales and marketing. He's like, it's okay. He's like, you know a lot about AWS. I was like, Yan, that's true. He's like, you can operate at scale. That's like, Well, I hope, I hopefully learn to be able to operate at scale, because I can't the rest of it. It'll be fine. And the team, I don't know that it worked at every company, but the teams were awesome. And I sat down with some of my sales leaders and be like, you please explain how commissions work to me. And they could have instantly flipped a bit and been like, nope. Like, thank you for asking first I did. They did have a bit of a double take when I asked those questions. But then they walked through, it, and then I go, like, do a bunch of research, make sure I understand exactly how it works, or whatever. And and, you know, I find out that I feel like half of the time I would ask them questions, and they'd be like, that's just a dumb question, but the other half the time they'd be like, actually, no one's ever asked that question. I don't know why it works that way. It doesn't have to work that way. And we would go find something interesting, because I didn't actually
+
+**Unknown Speaker (34:47):**  
+know how to get to
+
+**Speaker 1 (34:51):**  
+build up the first principles to That's right.
+
+**Speaker 2 (34:56):**  
+Sales driven company, Yan, we are different kind of sales will be we have, I when I started, I think we when I started, back full time, we had hired, I can't remember if it was two, I think two business development people, and our goal was to, like our stated goal time. We had a lot of good respect the day of like what was possible or not, but we were assumed that AWS can always just be self service, and then probably never need more than, like, 1020, 30 sales people.
+
+**Unknown Speaker (35:27):**  
+And then it turned out that, like
+
+**Unknown Speaker (35:28):**  
+enterprises want to talk to a human,
+
+**Speaker 2 (35:31):**  
+they didn't want to swipe their credit card, just use Compute and, and as we got into it, and even like we learned about what the business could be and, and as we got into it, we saw, you know, we built a different type of a sales team, by the way, we wanted one that was incredibly customer focused. We wanted we hired people and said, Look, you've got to be customer focused. We want you to go to our customers and tell them, we want you. We want you to proactively lower our customers bills, right? We want you to go find ways that they're using AWS wastefully and cut themselves.
+
+**Unknown Speaker (36:02):**  
+And exactly people are, like, our
+
+**Speaker 2 (36:05):**  
+sales people, right? Well, it's kind of refreshing. Like, okay, awesome. Like, I don't have to, like, hide that on covers. And customers were, like, just floored that we would possibly think, like, as a as a technology company, come and help them lower their bill. And we've been doing it for 20 years now, and and we continue to do it. I find other ways to do it, but over launch products and launch a feature, to launch capabilities, to try to help people, because every time we saw where we lowered their bill, they would use more. It'd be like the free up budget to go launch a new product which would drive their revenue, and then they would drive more. And so it was, was a real positive flywheel effect for us, but it's a very different
+
+**Speaker 4 (36:47):**  
+type of organization, all right. So now going back to this trajectory you've been on this all the different roles you had, you get the time machine, you get back. Give yourself some advice about the future, save yourself some missteps or some frustration, or what do you impart it with yourself?
+
+**Unknown Speaker (37:04):**  
+That's good question.
+
+**Speaker 2 (37:09):**  
+Well, there's a ton of things that I would do differently, but I'm also quite happy with where I am, so like a sliding door situation where I somehow mess it up, but but a but because I do, like, it's like, and I think all of like, even when we have, like, the worst times, actually, and I'll use this like, like, yes, like, what I love, if you go the early days of AWS, we had some, like, major outages where we, like, took down the internet. Like, four days. Wasn't really that bad, but it, like, felt that way internally, that that's what we're doing. Like we take it so personally. Customers trust us with their operations, their data and and what I'd love to like avoided that entirely. Like valuable things for that and our services today are way better because we learned from those lessons. I wish we would have found cheaper looking for ways to learn those lessons.
+
+**Unknown Speaker (38:00):**  
+But from a business perspective, but
+
+**Speaker 2 (38:06):**  
+from a business perspective, I kind of this fun question to ask, and like, it's really hard, because a lot of the bad things and bad choices you made, or even bad hires that you made, are such good learning opportunities that if you learn, you have to learn from by the way. So like, you got to make sure you don't like to make that mistake again, but I don't know you could be in the same place, or the products could be the same place, or people could be the same place. Didn't get to have those graphics.
+
+**Speaker 1 (38:30):**  
+We get asked that question sometimes, like, we made some really dumb things. We changed the name of the show at one point in time.
+
+**Unknown Speaker (38:36):**  
+Like we interrupted the compounding unnecessary.
+
+**Unknown Speaker (38:39):**  
+Yeah, we did some really dumb things, but like,
+
+**Unknown Speaker (38:42):**  
+yeah, like a pretty
+
+**Speaker 2 (38:45):**  
+fantastic show, like, yeah, right. Like, you take the wrong path. And so it's hard to say if you end up in a spot that's like, not happy with and there's lots of things that I would like to do better, by the way. So,
+
+**Speaker 2 (39:02):**  
+yeah, customers are perpetually displeased, like they always want more to always
+
+**Unknown Speaker (39:13):**  
+get better, and we take that really seriously.
+
+**Speaker 2 (39:22):**  
+Anything below 100% it's not good enough. We always want to drive costs down and performance up and you know, and all that being said, a good
+
+**Unknown Speaker (39:32):**  
+business and a pretty exciting
+
+**Unknown Speaker (39:36):**  
+customer changed your mind down that you used to be really sure of, and you're now very sure
+
+**Unknown Speaker (39:49):**  
+of the opposite, up to number one
+
+**Unknown Speaker (39:53):**  
+back in 2013 really sure that the
+
+**Speaker 2 (39:56):**  
+Seahawks were going to get dynasty. I
+
+**Unknown Speaker (40:01):**  
+thought you would be part of the novel workout.
+
+**Unknown Speaker (40:04):**  
+Oh, we're back. So this
+
+**Speaker 1 (40:09):**  
+guy thanks to the San Francisco 40 Niners quarterback rehabilitation program.
+
+**Speaker 2 (40:12):**  
+Yeah, exactly. Well, thank you. But more serious answer, we'll say, like, I remember, look at the timing, right, but it was wrong, but it was probably six or seven years ago. We don't leadership.
+
+**Speaker 3 (40:22):**  
+Had a leadership meeting across Amazon, and I'll tell you, one of the things we I was, I was absolutely
+
+**Speaker 2 (40:28):**  
+most worried about for the future of AWS and for Amazon, was we were charting a path on where we thought the business could be and the growth and the number of SDS we thought it was going to take to get there. And we thought the world would not have enough SDS for us. We were literally like, I'm gonna have to hire a million SDES to deliver the earlier constraint to growth. And I do not think
+
+**Speaker 2 (40:57):**  
+that today, we still have, we still have a need, by the way, for great SES. But actually think the growth in the AI world is going to be ideas before it was like we have way more ideas than we can possibly get to and and I think because you can deliver things so fast, you're constrained, it's going to be great ideas and great things you want to go after. And I would never suggest
+
+**Unknown Speaker (41:20):**  
+that we're going to need it awesome.
+
+**Speaker 4 (41:38):**  
+We want to thank all of you so much for coming and coming. Hanging Yan with us today.
+

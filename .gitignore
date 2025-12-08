@@ -44,9 +44,3 @@ override.tf.json
 # IDE / Editor
 .vscode/
 .kiro/hooks/
-
-# Transcripts - exclude large audio/video files
-reinvent-transcripts/*.mp3
-reinvent-transcripts/*.mp4
-reinvent-transcripts/*.m4a
-reinvent-transcripts/*.wav
